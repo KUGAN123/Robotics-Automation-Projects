@@ -1,0 +1,46 @@
+/PROG  PNS0042
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "HBC PH2";
+PROG_SIZE	= 534;
+CREATE		= DATE 26-04-07  TIME 22:49:10;
+MODIFIED	= DATE 26-05-25  TIME 09:44:22;
+FILE_NAME	= PNS0052;
+VERSION		= 0;
+LINE_COUNT	= 20;
+MEMORY_SIZE	= 850;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:   ;
+   2:  R[72]=TIMER[5]    ;
+   3:  TIMER[5]=RESET ;
+   4:  TIMER[5]=START ;
+   5:  OVERRIDE=100% ;
+   6:  R[80]=R[50]    ;
+   7:   ;
+   8:  CALL IO_RST    ;
+   9:  DO[15]=ON ;
+  10:  R[55]=0    ;
+  11:  R[72]=0    ;
+  12:  //CALL HBC_PH2_29JPH_NOV    ;
+  13:   ;
+  14:  CALL HBC_35JPH_APR    ;
+  15:  R[81]=R[50]    ;
+  16:  DO[15]=OFF ;
+  17:  CALL IO_RST    ;
+  18:  TIMER[5]=STOP ;
+  19:  R[55]=R[81]-R[80]    ;
+  20:  R[72]=TIMER[5]    ;
+/POS
+/END

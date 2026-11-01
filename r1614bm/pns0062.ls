@@ -1,0 +1,96 @@
+/PROG  PNS0062
+/ATTR
+OWNER		= NMT_RSG;
+COMMENT		= "MAIN T_CHANG RSW";
+PROG_SIZE	= 1367;
+CREATE		= DATE 24-07-30  TIME 02:31:56;
+MODIFIED	= DATE 24-07-30  TIME 02:31:56;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 62;
+MEMORY_SIZE	= 1783;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+/MN
+   1:  !BM R1614 ;
+   2:   ;
+   3:  UFRAME_NUM=0 ;
+   4:  UTOOL_NUM=1 ;
+   5:  PAYLOAD[1] ;
+   6:   ;
+   7:  TIMER[10]=RESET ;
+   8:  TIMER[10]=START ;
+   9:   ;
+  10:J PR[1:HOME POSITION] 50% FINE    ;
+  11:  //DO[15:IWS START]=ON ;
+  12:  //DO[17:IWS  TIP  DRESS]=ON ;
+  13:  DO[8:TIP CHANGE POS]=OFF ;
+  14:   ;
+  15:  IF DI[7:PARTS BYPASS]=ON,JMP LBL[900] ;
+  16:  DO[98:ISO CONTACTOR]=ON ;
+  17:  WAIT DI[97:ISO CONTACTOR]=ON    ;
+  18:  LBL[900] ;
+  19:   ;
+  20:J P[1:APPROACH BLOCK] 50% FINE    ;
+  21:L PR[10:APPROACHTIPBLOCK] 1000mm/sec FINE    ;
+  22:   ;
+  23:  CALL TDRESR1C    ;
+  24:   ;
+  25:L PR[10:APPROACHTIPBLOCK] 1000mm/sec FINE    ;
+  26:   ;
+  27:  CALL T_CHG1    ;
+  28:   ;
+  29:J PR[10:APPROACHTIPBLOCK] 50% FINE    ;
+  30:   ;
+  31:  CALL TCKR100C    ;
+  32:  R[332]=0    ;
+  33:   ;
+  34:L PR[10:APPROACHTIPBLOCK] 1000mm/sec FINE    ;
+  35:   ;
+  36:   ;
+  37:  DO[17:IWS  TIP  DRESS]=ON ;
+  38:   ;
+  39:  CALL TDRESR1C    ;
+  40:   ;
+  41:L PR[10:APPROACHTIPBLOCK] 1000mm/sec FINE
+    :  SPOT[SD=3,P=95,S=2,ED=6]    ;
+  42:   ;
+  43:  DO[17:IWS  TIP  DRESS]=OFF ;
+  44:   ;
+  45:  CALL TCKR100C    ;
+  46:   ;
+  47:  DO[26:TIP DRESS CYCLE COMP]=PULSE,1.0sec ;
+  48:   ;
+  49:J P[1:APPROACH BLOCK] 50% CNT50    ;
+  50:  CALL _RZ_ROD1    ;
+  51:  DO[8:TIP CHANGE POS]=OFF ;
+  52:  DO[98:ISO CONTACTOR]=OFF ;
+  53:  WAIT DI[97:ISO CONTACTOR]=OFF    ;
+  54:  //DO[15:IWS START]=OFF ;
+  55:  //DO[17:IWS  TIP  DRESS]=OFF ;
+  56:J PR[1:HOME POSITION] 50% FINE    ;
+  57:   ;
+  58:  TIMER[10]=STOP ;
+  59:   ;
+  60:  UFRAME_NUM=0 ;
+  61:  UTOOL_NUM=1 ;
+  62:  PAYLOAD[1] ;
+/POS
+P[1:"APPROACH BLOCK"]{
+   GP1:
+	UF : 0, UT : 1,	
+	J1=    50.000 deg,	J2=   -38.001 deg,	J3=    -1.846 deg,
+	J4=    89.998 deg,	J5=   -52.306 deg,	J6=  -183.465 deg
+   GP2:
+	UF : 0, UT : 1,	
+	J1=   -60.000  mm
+};
+/END

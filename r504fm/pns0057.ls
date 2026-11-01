@@ -1,0 +1,46 @@
+/PROG  PNS0057
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "PY1B_LHD GCC";
+PROG_SIZE	= 534;
+CREATE		= DATE 26-04-07  TIME 21:14:42;
+MODIFIED	= DATE 26-05-25  TIME 10:07:04;
+FILE_NAME	= PNS0056;
+VERSION		= 0;
+LINE_COUNT	= 20;
+MEMORY_SIZE	= 850;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:   ;
+   2:  R[73]=TIMER[8]    ;
+   3:  TIMER[8]=RESET ;
+   4:  TIMER[8]=START ;
+   5:  CALL IO_RST    ;
+   6:  DO[15]=ON ;
+   7:  R[80]=R[50]    ;
+   8:  R[56]=0    ;
+   9:  R[73]=0    ;
+  10:  //CALL PY1BLHD_30JPH_DEC    ;
+  11:   ;
+  12:  CALL PY1BLHD_35JPH_APR    ;
+  13:  R[81]=R[50]    ;
+  14:   ;
+  15:  DO[15]=OFF ;
+  16:  CALL IO_RST    ;
+  17:   ;
+  18:  TIMER[8]=STOP ;
+  19:  R[56]=R[81]-R[80]    ;
+  20:  R[73]=TIMER[8]    ;
+/POS
+/END

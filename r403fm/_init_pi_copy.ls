@@ -1,0 +1,113 @@
+/PROG  _INIT_PI_COPY
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "HOME POSITION";
+PROG_SIZE	= 2244;
+CREATE		= DATE 25-07-07  TIME 22:59:50;
+MODIFIED	= DATE 25-07-07  TIME 22:59:50;
+FILE_NAME	= _INIT_PI;
+VERSION		= 0;
+LINE_COUNT	= 87;
+MEMORY_SIZE	= 2888;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:  !FMA R403 ;
+   2:   ;
+   3:  UFRAME_NUM=0 ;
+   4:  UTOOL_NUM=1 ;
+   5:  PAYLOAD[1] ;
+   6:   ;
+   7:J PR[3] 50% FINE    ;
+   8:   ;
+   9:   ;
+  10:  !ERREUR USURES ;
+  11:  R[95]=$SGGUN1.$SETUP.$WRDWN_TIP ;
+  12:  R[96]=$SGGUN1.$SETUP.$WRDWN_RBT ;
+  13:   ;
+  14:  IF R[95]>1 OR R[95]<(-1),JMP LBL[1] ;
+  15:  IF R[96]>1 OR R[96]<(-1),JMP LBL[1] ;
+  16:   ;
+  17:   ;
+  18:  JMP LBL[2] ;
+  19:   ;
+  20:   ;
+  21:  LBL[1] ;
+  22:  R[48]=0    ;
+  23:  R[49]=$MCR.$GENOVERRIDE ;
+  24:   ;
+  25:  CALL _EFF_MES    ;
+  26:  DO[9]=ON ;
+  27:  MESSAGE[GUN CALIBRATION FAULT] ;
+  28:  MESSAGE[...] ;
+  29:  MESSAGE[VERIFIER 0 GUN] ;
+  30:  MESSAGE[THEN PRESS] ;
+  31:  MESSAGE[SHIFT IO IN MANUAL] ;
+  32:  MESSAGE[MODE TO FAULT RESET] ;
+  33:  MESSAGE[...] ;
+  34:   ;
+  35:  WAIT R[48]=0    ;
+  36:  OVERRIDE=R[49] ;
+  37:   ;
+  38:   ;
+  39:  $SGGUN1.$SGREG.$REGLONG[1]=0 ;
+  40:  $SGGUN1.$SGREG.$REGLONG[2]=0 ;
+  41:  $SGGUN1.$SGREG.$REGLONG[3]=0 ;
+  42:  $SGGUN1.$SGREG.$REGLONG[4]=0 ;
+  43:  $SGGUN1.$SGREG.$REGLONG[5]=0 ;
+  44:  $SGGUN1.$SGREG.$REGLONG[6]=0 ;
+  45:  $SGGUN1.$SGREG.$REGLONG[7]=0 ;
+  46:  $SGGUN1.$SGREG.$REGLONG[8]=0 ;
+  47:  $SGGUN1.$SGREG.$REGLONG[9]=0 ;
+  48:  $SGGUN1.$SGREG.$REGLONG[10]=0 ;
+  49:   ;
+  50:  $SGGUN1.$SGREG.$REGREAL[1]=0 ;
+  51:  $SGGUN1.$SGREG.$REGREAL[2]=0 ;
+  52:  $SGGUN1.$SGREG.$REGREAL[3]=0 ;
+  53:  $SGGUN1.$SGREG.$REGREAL[4]=0 ;
+  54:  $SGGUN1.$SGREG.$REGREAL[5]=0 ;
+  55:  $SGGUN1.$SGREG.$REGREAL[6]=0 ;
+  56:  $SGGUN1.$SGREG.$REGREAL[7]=0 ;
+  57:  $SGGUN1.$SGREG.$REGREAL[8]=0 ;
+  58:  $SGGUN1.$SGREG.$REGREAL[9]=0 ;
+  59:  $SGGUN1.$SGREG.$REGREAL[10]=0 ;
+  60:   ;
+  61:L PR[10] 1000mm/sec FINE    ;
+  62:   ;
+  63:   ;
+  64:  CALL TWKINIT(1) ;
+  65:   ;
+  66:L PR[10] 1000mm/sec FINE    ;
+  67:   ;
+  68:  CALL TWKTHOLD(1,10,20) ;
+  69:   ;
+  70:L PR[10] 1000mm/sec FINE    ;
+  71:   ;
+  72:  CALL TWKZRCLB(1,10,20) ;
+  73:   ;
+  74:L PR[10] 1000mm/sec FINE    ;
+  75:   ;
+  76:L PR[11] 1000mm/sec FINE    ;
+  77:   ;
+  78:  CALL TWKFXTCH(1,10,20) ;
+  79:   ;
+  80:L PR[11] 1000mm/sec FINE    ;
+  81:   ;
+  82:L PR[10] 1000mm/sec FINE    ;
+  83:   ;
+  84:   ;
+  85:J PR[3] 50% FINE    ;
+  86:   ;
+  87:  LBL[2] ;
+/POS
+/END

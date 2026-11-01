@@ -1,0 +1,59 @@
+/PROG  TWFXTCH2	  Macro
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "Touch fixture";
+PROG_SIZE	= 1186;
+CREATE		= DATE 06-04-24  TIME 10:53:16;
+MODIFIED	= DATE 26-06-23  TIME 23:02:18;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 23;
+MEMORY_SIZE	= 1710;
+PROTECT		= READ;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= *,1,*,*,*;
+CONTROL_CODE	= 00000000 00000001;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:  R[10]=0    ;
+   2:  LBL[1000] ;
+   3:  IF $SGGUN1.$SGTWD.$RETRY_FLG<>123456,JMP LBL[3000] ;
+   4:  IF $SGGUN1.$SGTWD.$MISDETECT>0,JMP LBL[2000] ;
+   5:  IF $SGSYSTWD.$RETRY_ENB<>1,JMP LBL[3000] ;
+   6:  LBL[2000:Open for retry] ;
+   7:L P[1] 500mm/sec CNT0    ;
+   8:  LBL[3000:Check method] ;
+   9:  IF $SGGUN1.$SGTWD.$DI_DETECT=1,JMP LBL[4000] ;
+  10:  SKIP CONDITION $SGGUN1.$STATE.$PRES_FDB>=80    ;
+  11:  JMP LBL[5000] ;
+  12:  LBL[4000:DI Detection] ;
+  13:  SKIP CONDITION DI[1]=ON    ;
+  14:  LBL[5000:Start measuremnt] ;
+  15:  $SGGUN1.$SGTWD.$RETRY_FLG=123456 ;
+  16:L P[2] 60mm/sec CNT0 INC Skip,LBL[999],PR[20]=JPOS    ;
+  17:  CALL TWKGQSKP    ;
+  18:  IF $SGGUN1.$SGTWD.$MISDETECT<>0,JMP LBL[2000] ;
+  19:  $SGGUN1.$SGTWD.$RETRY_FLG=0 ;
+  20:  END ;
+  21:  LBL[999:Failed to detect] ;
+  22:  CALL TWKNOSKP    ;
+  23:  JMP LBL[2000] ;
+/POS
+P[1]{
+   GP2:
+	UF : 0, UT : 1,	
+	J1=   -59.373  mm
+};
+P[2]{
+   GP2:
+	UF : 0, UT : 1,	
+	J1=    59.373  mm
+};
+/END

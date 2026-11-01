@@ -1,0 +1,90 @@
+/PROG  _CTL_ROD
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "CTRL ROD\FRAISE";
+PROG_SIZE	= 1390;
+CREATE		= DATE 12-09-04  TIME 16:10:24;
+MODIFIED	= DATE 13-05-12  TIME 11:18:50;
+FILE_NAME	= _CTL_ROD;
+VERSION		= 0;
+LINE_COUNT	= 64;
+MEMORY_SIZE	= 1950;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= *,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:  R[104:Tip wear Limit]=(-5)    ;
+   2:  R[106]=0    ;
+   3:  R[48]=0    ;
+   4:   ;
+   5:  LBL[1] ;
+   6:   ;
+   7:  CALL TDRESR1C    ;
+   8:  CALL TCKR100C    ;
+   9:   ;
+  10:  !COPIE_PARAM_USINAGE_ELECTR ;
+  11:  R[90:Gun Tip wr value]=$SGGUN1.$SGTWD.$DIF_MOV ;
+  12:  R[91:Rbt Tip wr value]=$SGGUN1.$SGTWD.$DIF_FIX ;
+  13:   ;
+  14:  !NBR_REPETITION ;
+  15:  R[106]=R[106]+1    ;
+  16:   ;
+  17:  !TEST_VALEUR_USINEES ;
+  18:  R[105:Tl wr vl R90+R91]=R[90:Gun Tip wr value]+R[91:Rbt Tip wr value]    ;
+  19:  IF R[105:Tl wr vl R90+R91]>R[104:Tip wear Limit],JMP LBL[4] ;
+  20:   ;
+  21:  IF R[106]<2,JMP LBL[1] ;
+  22:   ;
+  23:  R[48]=0    ;
+  24:  R[49:Override]=$MCR.$GENOVERRIDE ;
+  25:   ;
+  26:  CALL _EFF_MES    ;
+  27:  DO[9]=ON ;
+  28:  MESSAGE[TIP DRESS FAULT] ;
+  29:  MESSAGE[...] ;
+  30:  MESSAGE[PRESS SHIFT IO] ;
+  31:  MESSAGE[IN MANUAL MODE] ;
+  32:  MESSAGE[TO RESET FAULT] ;
+  33:   ;
+  34:  WAIT R[48]=0    ;
+  35:  OVERRIDE=R[49:Override] ;
+  36:  R[106]=1    ;
+  37:  JMP LBL[1] ;
+  38:   ;
+  39:  LBL[4] ;
+  40:   ;
+  41:  !TEST FRAISE ;
+  42:   ;
+  43:  IF R[53:DRESS CNT FOR CU]<=R[62:CTR CHNG LIMIT],JMP LBL[6] ;
+  44:   ;
+  45:  DO[9]=ON ;
+  46:  R[48]=1    ;
+  47:  R[49:Override]=$MCR.$GENOVERRIDE ;
+  48:   ;
+  49:  CALL _EFF_MES    ;
+  50:  MESSAGE[CHANGE DRESSER] ;
+  51:  MESSAGE[AND RESET (R53)] ;
+  52:  MESSAGE[OR CHANGE (R62)] ;
+  53:  MESSAGE[THEN PRESS] ;
+  54:  MESSAGE[SHIFT IO en Manu] ;
+  55:  MESSAGE[MADE TO RESET FAULT] ;
+  56:   ;
+  57:  OVERRIDE=R[49:Override] ;
+  58:  WAIT R[53:DRESS CNT FOR CU]=0 OR R[62:CTR CHNG LIMIT]>R[53:DRESS CNT FOR CU]    ;
+  59:   ;
+  60:  IF R[62:CTR CHNG LIMIT]<10000 OR R[62:CTR CHNG LIMIT]>0,JMP LBL[6] ;
+  61:   ;
+  62:  R[62:CTR CHNG LIMIT]=10000    ;
+  63:   ;
+  64:  LBL[6] ;
+/POS
+/END

@@ -1,0 +1,46 @@
+/PROG  PNS0054
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "PY1B_RHD_MC";
+PROG_SIZE	= 558;
+CREATE		= DATE 26-04-07  TIME 23:26:28;
+MODIFIED	= DATE 26-05-25  TIME 09:32:38;
+FILE_NAME	= PNS0050;
+VERSION		= 0;
+LINE_COUNT	= 20;
+MEMORY_SIZE	= 890;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:   ;
+   2:  R[74]=TIMER[8]    ;
+   3:  TIMER[8]=RESET ;
+   4:  TIMER[8]=START ;
+   5:  CALL IO_RST    ;
+   6:  R[80]=R[50]    ;
+   7:  R[74]=0    ;
+   8:  DO[15]=ON ;
+   9:  CALL TRQ_CLR    ;
+  10:  R[57]=0    ;
+  11:  //CALL PY1BRHD_29JPH_NW    ;
+  12:   ;
+  13:  CALL PY1BRHD_35JPH_APR    ;
+  14:  R[81]=R[50]    ;
+  15:  DO[15]=OFF ;
+  16:  CALL IO_RST    ;
+  17:  CALL TRQ_SET    ;
+  18:  TIMER[8]=STOP ;
+  19:  R[57]=R[81]-R[80]    ;
+  20:  R[74]=TIMER[8]    ;
+/POS
+/END

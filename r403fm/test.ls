@@ -1,0 +1,33 @@
+/PROG  TEST
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "";
+PROG_SIZE	= 497;
+CREATE		= DATE 13-03-08  TIME 16:44:38;
+MODIFIED	= DATE 13-05-21  TIME 16:04:20;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 1;
+MEMORY_SIZE	= 865;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:J P[1] 100% FINE    ;
+/POS
+P[1]{
+   GP1:
+	UF : 0, UT : 1,	
+	J1=     0.000 deg,	J2=     0.000 deg,	J3=     0.000 deg,
+	J4=     0.000 deg,	J5=     0.000 deg,	J6=     0.000 deg
+};
+/END

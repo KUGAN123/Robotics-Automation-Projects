@@ -1,0 +1,34 @@
+/PROG  IO_RESET
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "";
+PROG_SIZE	= 296;
+CREATE		= DATE 14-10-21  TIME 11:14:38;
+MODIFIED	= DATE 14-10-27  TIME 06:59:08;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 8;
+MEMORY_SIZE	= 636;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:  DO[33]=ON ;
+   2:  DO[34]=ON ;
+   3:  DO[35]=ON ;
+   4:  DO[36]=ON ;
+   5:  DO[41]=ON ;
+   6:  DO[42]=ON ;
+   7:  DO[43]=ON ;
+   8:  DO[44]=ON ;
+/POS
+/END

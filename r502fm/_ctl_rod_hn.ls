@@ -1,0 +1,92 @@
+/PROG  _CTL_ROD_HN
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "CTRL ROD\FRAISE";
+PROG_SIZE	= 1414;
+CREATE		= DATE 15-06-28  TIME 15:06:04;
+MODIFIED	= DATE 15-06-28  TIME 15:07:28;
+FILE_NAME	= _CTL_ROD;
+VERSION		= 0;
+LINE_COUNT	= 66;
+MEMORY_SIZE	= 1966;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= *,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:  R[104]=(-5)    ;
+   2:  R[106]=0    ;
+   3:  R[48]=0    ;
+   4:   ;
+   5:  LBL[1] ;
+   6:   ;
+   7:   ;
+   8:   ;
+   9:  CALL TDRESR1C_HN    ;
+  10:  CALL TCKR100C_HN    ;
+  11:   ;
+  12:  !COPIE_PARAM_USINAGE_ELECTR ;
+  13:  R[90]=$SGGUN1.$SGTWD.$DIF_MOV ;
+  14:  R[91]=$SGGUN1.$SGTWD.$DIF_FIX ;
+  15:   ;
+  16:  !NBR_REPETITION ;
+  17:  R[106]=R[106]+1    ;
+  18:   ;
+  19:  !TEST_VALEUR_USINEES ;
+  20:  R[105]=R[90]+R[91]    ;
+  21:  IF R[105]>R[104],JMP LBL[4] ;
+  22:   ;
+  23:  IF R[106]<2,JMP LBL[1] ;
+  24:   ;
+  25:  R[48]=0    ;
+  26:  R[49]=$MCR.$GENOVERRIDE ;
+  27:   ;
+  28:  CALL _EFF_MES    ;
+  29:  DO[9]=ON ;
+  30:  MESSAGE[TIP DRESS FAULT] ;
+  31:  MESSAGE[...] ;
+  32:  MESSAGE[PRESS SHIFT IO] ;
+  33:  MESSAGE[IN MANUAL MODE] ;
+  34:  MESSAGE[TO RESET FAULT] ;
+  35:   ;
+  36:  WAIT R[48]=0    ;
+  37:  OVERRIDE=R[49] ;
+  38:  R[106]=1    ;
+  39:  JMP LBL[1] ;
+  40:   ;
+  41:  LBL[4] ;
+  42:   ;
+  43:  !TEST FRAISE ;
+  44:   ;
+  45:  IF R[53:DRES CNT FO CTR]<=R[62:CTR CHNG LIMIT],JMP LBL[6] ;
+  46:   ;
+  47:  DO[9]=ON ;
+  48:  R[48]=1    ;
+  49:  R[49]=$MCR.$GENOVERRIDE ;
+  50:   ;
+  51:  CALL _EFF_MES    ;
+  52:  MESSAGE[Change dresser] ;
+  53:  MESSAGE[AND RESET (R53)] ;
+  54:  MESSAGE[OR CHANGE(R62)] ;
+  55:  MESSAGE[THEN PRESS] ;
+  56:  MESSAGE[SHIFT IO en Manu] ;
+  57:  MESSAGE[MODE TO RESET FAULT] ;
+  58:   ;
+  59:  OVERRIDE=R[49] ;
+  60:  WAIT R[53:DRES CNT FO CTR]=0 OR R[62:CTR CHNG LIMIT]>R[53:DRES CNT FO CTR]    ;
+  61:   ;
+  62:  IF R[62:CTR CHNG LIMIT]<10000 OR R[62:CTR CHNG LIMIT]>0,JMP LBL[6] ;
+  63:   ;
+  64:  R[62:CTR CHNG LIMIT]=10000    ;
+  65:   ;
+  66:  LBL[6] ;
+/POS
+/END

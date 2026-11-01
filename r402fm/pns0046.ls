@@ -1,0 +1,46 @@
+/PROG  PNS0046
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "RBC HR10";
+PROG_SIZE	= 502;
+CREATE		= DATE 26-05-26  TIME 09:50:10;
+MODIFIED	= DATE 26-05-26  TIME 09:50:18;
+FILE_NAME	= PNS0043;
+VERSION		= 0;
+LINE_COUNT	= 21;
+MEMORY_SIZE	= 806;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+/MN
+   1:   ;
+   2:  R[71:RBC CYL TIME]=TIMER[8]    ;
+   3:  TIMER[8]=RESET ;
+   4:  TIMER[8]=START ;
+   5:  R[71:RBC CYL TIME]=0    ;
+   6:  R[80]=R[50:SPOT COUNT  ]    ;
+   7:  CALL IO_RST    ;
+   8:  DO[15]=ON ;
+   9:   ;
+  10:  R[145:RBC SPOT CT]=0    ;
+  11:  R[54:RBC]=0    ;
+  12:   ;
+  13:  CALL RBC_35JPH_APR    ;
+  14:  R[81]=R[50:SPOT COUNT  ]    ;
+  15:  DO[15]=OFF ;
+  16:  CALL IO_RST    ;
+  17:   ;
+  18:  TIMER[8]=STOP ;
+  19:  R[54:RBC]=R[81]-R[80]    ;
+  20:  R[71:RBC CYL TIME]=TIMER[8]    ;
+  21:   ;
+/POS
+/END

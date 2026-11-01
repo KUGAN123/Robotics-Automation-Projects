@@ -1,0 +1,41 @@
+/PROG  PNS0056
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "PY1B_LHD MEX";
+PROG_SIZE	= 404;
+CREATE		= DATE 26-02-21  TIME 14:52:18;
+MODIFIED	= DATE 26-02-21  TIME 14:52:18;
+FILE_NAME	= PNS0054;
+VERSION		= 0;
+LINE_COUNT	= 15;
+MEMORY_SIZE	= 732;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:   ;
+   2:  TIMER[8]=RESET ;
+   3:  TIMER[8]=START ;
+   4:  CALL IO_RESET    ;
+   5:  DO[15]=ON ;
+   6:   ;
+   7:   ;
+   8:  CALL PNS0057    ;
+   9:   ;
+  10:   ;
+  11:  DO[15]=OFF ;
+  12:  CALL IO_RESET    ;
+  13:   ;
+  14:   ;
+  15:  TIMER[8]=STOP ;
+/POS
+/END

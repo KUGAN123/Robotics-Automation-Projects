@@ -1,0 +1,1101 @@
+
+Variable Change Summary:
+Catalog records in use 643  of 3000
+Shadow in use 396540  of 6173190
+[*SYSTEM*] saved 30 times with 546 entries:
+[    *SYSTEM*]  $HOSTS_CFG  2 updates 
+1 occurances
+[    *SYSTEM*] $MACROTABLE  1 updates 
+1 occurances
+[    *SYSTEM*]        $MCR  28442 updates 
+1 occurances
+[    *SYSTEM*]    $MCR_GRP  52582 updates 
+2 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+1 occurances
+[    *SYSTEM*] $SPOTWELDIO  1 updates 
+1 occurances
+[    *SYSTEM*]        $MCR  28442 updates 
+1 occurances
+[    *SYSTEM*]    $MCR_GRP  52582 updates 
+2 occurances
+[    *SYSTEM*]   $DMSW_CFG  0 updates 
+1 occurances
+[    *SYSTEM*]        $MCR  28442 updates 
+3 occurances
+[    *SYSTEM*] $SPOTCONFIG  1589 updates 
+1 occurances
+[    *SYSTEM*]        $MCR  28442 updates 
+2 occurances
+[    *SYSTEM*]    $MCR_GRP  52582 updates 
+6 occurances
+[    *SYSTEM*]    $SCR_GRP  59079 updates 
+2 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+3 occurances
+[    *SYSTEM*]$SPOTEQSETUP  14647 updates 
+1 occurances
+[    *SYSTEM*]    $MCR_GRP  52582 updates 
+1 occurances
+[    *SYSTEM*]    $SCR_GRP  59079 updates 
+2 occurances
+[    *SYSTEM*]$PARAM_GROUP  404 updates 
+1 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+1 occurances
+[    *SYSTEM*]     $SGSCH1  404 updates 
+1 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+9 occurances
+[    *SYSTEM*] $SPOTCONFIG  1589 updates 
+1 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+2 occurances
+[    *SYSTEM*]    $SCR_GRP  59079 updates 
+7 occurances
+[    *SYSTEM*]    $MCR_GRP  52582 updates 
+1 occurances
+[    *SYSTEM*]    $SCR_GRP  59079 updates 
+12 occurances
+[    *SYSTEM*]$SPOTEQSETUP  14647 updates 
+1 occurances
+[    *SYSTEM*]        $MCR  28442 updates 
+1 occurances
+[    *SYSTEM*]    $MCR_GRP  52582 updates 
+2 occurances
+[    *SYSTEM*]        $SCR  30 updates 
+22 occurances
+[    *SYSTEM*]        $MCR  28442 updates 
+1 occurances
+[    *SYSTEM*]        $SCR  30 updates 
+1 occurances
+[    *SYSTEM*]    $SCR_GRP  59079 updates 
+1 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+6 occurances
+[    *SYSTEM*]    $MCR_GRP  52582 updates 
+2 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+6 occurances
+[    *SYSTEM*]  $UI_CONFIG  0 updates 
+3 occurances
+[    *SYSTEM*]    $MCR_GRP  52582 updates 
+2 occurances
+[    *SYSTEM*]     $SGSCH1  404 updates 
+2 occurances
+[    *SYSTEM*]        $SCR  30 updates 
+2 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+2 occurances
+[    *SYSTEM*]        $SCR  30 updates 
+8 occurances
+[    *SYSTEM*]  $UI_CONFIG  0 updates 
+1 occurances
+[    *SYSTEM*]     $SGSCH1  404 updates 
+1 occurances
+[    *SYSTEM*]        $SCR  30 updates 
+2 occurances
+[    *SYSTEM*] $SPOTCONFIG  1589 updates 
+1 occurances
+[    *SYSTEM*]     $IWCDGS  0 updates 
+1 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+2 occurances
+[    *SYSTEM*]     $IWCDGS  0 updates 
+2 occurances
+[    *SYSTEM*] $PRGADJ_SCH  0 updates 
+24 occurances
+[    *SYSTEM*]     $SGDST1  0 updates 
+1 occurances
+[    *SYSTEM*]        $SBR  0 updates 
+3 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+2 occurances
+[    *SYSTEM*] $PRGADJ_SCH  0 updates 
+88 occurances
+[    *SYSTEM*]     $IWCDGS  0 updates 
+1 occurances
+[    *SYSTEM*]   $IWCDGCON  0 updates 
+4 occurances
+[    *SYSTEM*]     $IWCDGS  0 updates 
+84 occurances
+[    *SYSTEM*] $PRGADJ_SCH  0 updates 
+12 occurances
+[    *SYSTEM*]    $MCR_GRP  52582 updates 
+3 occurances
+[    *SYSTEM*]        $MCR  28442 updates 
+1 occurances
+[    *SYSTEM*] $PRGADJ_SCH  0 updates 
+1 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+1 occurances
+[    *SYSTEM*]     $SGSCH1  404 updates 
+1 occurances
+[    *SYSTEM*]     $IWCDGS  0 updates 
+2 occurances
+[    *SYSTEM*]        $SBR  0 updates 
+1 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+4 occurances
+[    *SYSTEM*]     $SGSCH1  404 updates 
+6 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+6 occurances
+[    *SYSTEM*]     $SGSCH1  404 updates 
+1 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+34 occurances
+[    *SYSTEM*] $PRGADJ_SCH  0 updates 
+4 occurances
+[    *SYSTEM*]     $IWCDGS  0 updates 
+3 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+2 occurances
+[    *SYSTEM*]     $IWCDGS  0 updates 
+15 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+2 occurances
+[    *SYSTEM*]     $IWCDGS  0 updates 
+35 occurances
+[    *SYSTEM*]        $SBR  0 updates 
+18 occurances
+[    *SYSTEM*]     $IWCDGS  0 updates 
+11 occurances
+[    *SYSTEM*]$PARAM_GROUP  404 updates 
+1 occurances
+[    *SYSTEM*]     $IWCDGS  0 updates 
+2 occurances
+[    *SYSTEM*]  $UI_CONFIG  0 updates 
+1 occurances
+[    *SYSTEM*]     $IWCDGS  0 updates 
+2 occurances
+[    *SYSTEM*] $PRGADJ_SCH  0 updates 
+3 occurances
+[    *SYSTEM*]     $IWCDGS  0 updates 
+10 occurances
+[    *SYSTEM*] $PRGADJ_SCH  0 updates 
+2 occurances
+[    *SYSTEM*]$SPOTEQSETUP  14647 updates 
+1 occurances
+[    *SYSTEM*]    $MCR_GRP  52582 updates 
+2 occurances
+[    *SYSTEM*] $FILE_DGBCK  0 updates 
+10 occurances
+[    *SYSTEM*]     $SGGUN1  79979 updates 
+1 occurances
+[    *SYSTEM*]  $UI_CONFIG  0 updates 
+1 occurances
+[    *SYSTEM*] $PRGADJ_SCH  0 updates 
+1 occurances
+[TWKINIT] saved 4 times with 22 entries:
+[     TWKINIT]   DATA_TYPE  860 updates 
+1 occurances
+[     TWKINIT]       ENTRY  1069 updates 
+1 occurances
+[     TWKINIT]   INT_VALUE  860 updates 
+1 occurances
+[     TWKINIT]    SYS_NAME  6477 updates 
+8 occurances
+[     TWKINIT]     TMP_STR  616 updates 
+1 occurances
+[     TWKINIT]  GCLS_PLSCT  430 updates 
+1 occurances
+[     TWKINIT] GCLS_POSDIF  640 updates 
+1 occurances
+[     TWKINIT] LAST_WD_GUN  430 updates 
+1 occurances
+[     TWKINIT] LAST_WD_RBT  430 updates 
+1 occurances
+[     TWKINIT] LST_WDG_MEM  20 updates 
+1 occurances
+[     TWKINIT] LST_WDR_MEM  20 updates 
+1 occurances
+[     TWKINIT]      STATUS  616 updates 
+1 occurances
+[     TWKINIT]   GCLS_STAT  420 updates 
+1 occurances
+[     TWKINIT]  PRESS_MOTN  420 updates 
+1 occurances
+[     TWKINIT]  CALL_FXTCH  0 updates 
+1 occurances
+[TWKGNSL2] saved 2 times with 9 entries:
+[    TWKGNSL2]       JPOS2  1396 updates 
+6 occurances
+[    TWKGNSL2]       PHASE  696 updates 
+1 occurances
+[    TWKGNSL2]       JPOS2  1396 updates 
+2 occurances
+[TWKTHSET] saved 2 times with 2 entries:
+[    TWKTHSET]     MAX_FDB  0 updates 
+1 occurances
+[    TWKTHSET]   THRESHOLD  0 updates 
+1 occurances
+[TWKPCOND] saved 2 times with 7 entries:
+[    TWKPCOND] DIF_GUNZERO  404 updates 
+1 occurances
+[    TWKPCOND]  PUSH_DEPTH  404 updates 
+1 occurances
+[    TWKPCOND]   THICKNESS  404 updates 
+1 occurances
+[    TWKPCOND]      STROKE  0 updates 
+1 occurances
+[    TWKPCOND]   MAXWDNRBT  0 updates 
+1 occurances
+[    TWKPCOND]   MAXWDNTIP  0 updates 
+1 occurances
+[    TWKPCOND]   MISDETECT  0 updates 
+1 occurances
+[TWKPULSE] saved 2 times with 6 entries:
+[    TWKPULSE]        DIFF  430 updates 
+1 occurances
+[    TWKPULSE]    DIFF_CNT  430 updates 
+1 occurances
+[    TWKPULSE]  MACHIN_PLS  430 updates 
+1 occurances
+[    TWKPULSE]  MASTER_CNT  0 updates 
+1 occurances
+[    TWKPULSE]  MASTER_TIP  0 updates 
+1 occurances
+[    TWKPULSE]   MISDETECT  0 updates 
+1 occurances
+[TWKSTROK] saved 2 times with 2 entries:
+[    TWKSTROK] CUR_MASTCNT  0 updates 
+1 occurances
+[    TWKSTROK]  MASTER_TIP  0 updates 
+1 occurances
+[TWKFXTCH] saved 3 times with 2 entries:
+[    TWKFXTCH]     PRG_IDX  616 updates 
+1 occurances
+[    TWKFXTCH]     TIP_FLG  30 updates 
+1 occurances
+[TWKGQSKP] saved 2 times with 5 entries:
+[    TWKGQSKP]     GUN_POS  430 updates 
+1 occurances
+[    TWKGQSKP]  MASTER_CNT  430 updates 
+1 occurances
+[    TWKGQSKP]  MASTER_TIP  0 updates 
+1 occurances
+[    TWKGQSKP]  QSKPER_CNT  430 updates 
+1 occurances
+[    TWKGQSKP]   MISDETECT  0 updates 
+1 occurances
+[SGKDFLCL] saved 1 times with 11 entries:
+[    SGKDFLCL]       JPOS2  0 updates 
+10 occurances
+[    SGKDFLCL]    JPOS_ARR  0 updates 
+1 occurances
+[TWKZRCLB] saved 2 times with 1 entries:
+[    TWKZRCLB]     PRG_IDX  480 updates 
+1 occurances
+[TWKCALC] saved 2 times with 18 entries:
+[     TWKCALC] BASE_WD_RBT  430 updates 
+1 occurances
+[     TWKCALC] BASE_WD_TIP  430 updates 
+1 occurances
+[     TWKCALC] BASE_WD_TTL  430 updates 
+1 occurances
+[     TWKCALC]  CUR_MASTER  430 updates 
+1 occurances
+[     TWKCALC]  CUR_WD_GUN  430 updates 
+1 occurances
+[     TWKCALC]  CUR_WD_RBT  430 updates 
+1 occurances
+[     TWKCALC]  DIF_WD_GUN  430 updates 
+1 occurances
+[     TWKCALC]  DIF_WD_RBT  430 updates 
+1 occurances
+[     TWKCALC]     NEW_TIP  40 updates 
+1 occurances
+[     TWKCALC]  STD_MASTER  0 updates 
+1 occurances
+[     TWKCALC]  STD_STROKE  0 updates 
+1 occurances
+[     TWKCALC]      STROKE  430 updates 
+1 occurances
+[     TWKCALC]    WD_TOTAL  430 updates 
+1 occurances
+[     TWKCALC]   FOUND_ERR  0 updates 
+1 occurances
+[     TWKCALC] WD_ELIM_GUN  0 updates 
+1 occurances
+[     TWKCALC] WD_ELIM_RBT  0 updates 
+1 occurances
+[     TWKCALC]  MAX_WD_GUN  0 updates 
+1 occurances
+[     TWKCALC]  MAX_WD_RBT  0 updates 
+1 occurances
+[SWAXTASK] saved 5 times with 1 entries:
+[    SWAXTASK] FLTED_EQUIP  0 updates 
+1 occurances
+[SWMANWLD] saved 4 times with 9 entries:
+[    SWMANWLD]   LAST_PSCH  0 updates 
+1 occurances
+[    SWMANWLD]   LAST_WSCH  0 updates 
+1 occurances
+[    SWMANWLD]     WLD_SCH  0 updates 
+1 occurances
+[    SWMANWLD] LAST_BU_SCH  0 updates 
+1 occurances
+[    SWMANWLD]  LAST_APDST  0 updates 
+1 occurances
+[    SWMANWLD]  LAST_RTDST  0 updates 
+1 occurances
+[    SWMANWLD]   PRESS_SCH  0 updates 
+1 occurances
+[    SWMANWLD]       APDST  0 updates 
+1 occurances
+[    SWMANWLD]       RTDST  0 updates 
+1 occurances
+[TPFDEF] saved 4 times with 1 entries:
+[      TPFDEF]  SETUP_DATA  0 updates 
+1 occurances
+[TWKTHINI] saved 2 times with 1 entries:
+[    TWKTHINI]   PRESS_LIM  0 updates 
+1 occurances
+
+Detailed Change Listing:
+Catalog records in use 643  of 3000
+Shadow in use 396540  of 6173190
+[*SYSTEM*] saved 30 times with 546 entries:
+[    *SYSTEM*]  $HOSTS_CFG  2 updates               $HOSTS_CFG[2].$STATE,16,125,0x3
+[    *SYSTEM*] $MACROTABLE  1 updates               $MACROTABLE[1].$MON_NO,22,24,0x10b4fe10
+[    *SYSTEM*]        $MCR  28442 updates               $MCR.$GENOVERRIDE,23,22,0x64
+[    *SYSTEM*]    $MCR_GRP  52582 updates               $MCR_GRP[1].$UOP_IMSTP,24,58,0x0
+              $MCR_GRP[2].$UOP_IMSTP,24,207,0x0
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$NWT_ANGLE.$C_ANGLE,48,492,0x3e489194
+[    *SYSTEM*] $SPOTWELDIO  1 updates               $SPOTWELDIO[1].$PORT_NUM,72,4,0xff
+[    *SYSTEM*]        $MCR  28442 updates               $MCR.$ENBL,23,0,0x1
+[    *SYSTEM*]    $MCR_GRP  52582 updates               $MCR_GRP[1].$HARD_HOLD,24,4,0x0
+              $MCR_GRP[2].$HARD_HOLD,24,153,0x0
+[    *SYSTEM*]   $DMSW_CFG  0 updates               $DMSW_CFG.$KEYIMAGE,7,0,0xc
+[    *SYSTEM*]        $MCR  28442 updates               $MCR.$CLD_RELEASE,23,31,0x0
+              $MCR.$SHFT_RST_PR,23,38,0x0
+              $MCR.$SFSPD,23,1,0x0
+[    *SYSTEM*] $SPOTCONFIG  1589 updates               $SPOTCONFIG.$WELD_ENBL,69,2,0x1
+[    *SYSTEM*]        $MCR  28442 updates               $MCR.$OTF_PRG_ID,23,26,0x3f13
+              $MCR.$OTF_LIN_NO,23,27,0x38
+[    *SYSTEM*]    $MCR_GRP  52582 updates               $MCR_GRP[1].$HOLD,24,3,0x0
+              $MCR_GRP[1].$OTF_ORG_SPD,24,54,0x447a0000
+              $MCR_GRP[2].$HOLD,24,152,0x0
+              $MCR_GRP[2].$OTF_SPEED,24,202,0x0
+              $MCR_GRP[2].$OTF_ORG_SPD,24,203,0x447a0000
+              $MCR_GRP[2].$FRCEBRKREL,24,255,0x0
+[    *SYSTEM*]    $SCR_GRP  59079 updates               $SCR_GRP[1].$DAC_AXMODE[8],34,202,0x5cd88ba3
+              $SCR_GRP[1].$DAC_AXMODE[9],34,203,0x0
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$SETUP.$EQ_SIX_ENB,48,203,0x1
+              $SGGUN1.$STATE.$PRES_FDB,48,372,0x41
+              $SGGUN1.$STATE.$PRES_FDBF,48,376,0x42831b3b
+[    *SYSTEM*]$SPOTEQSETUP  14647 updates               $SPOTEQSETUP[1].$WELD_CNTER,71,152,0x18
+[    *SYSTEM*]    $MCR_GRP  52582 updates               $MCR_GRP[1].$OTF_SPEED,24,53,0x0
+[    *SYSTEM*]    $SCR_GRP  59079 updates               $SCR_GRP[1].$DST_MIR_P,34,162,0x0
+              $SCR_GRP[2].$DST_MIR_P,34,626,0x0
+[    *SYSTEM*]$PARAM_GROUP  404 updates               $PARAM_GROUP[2].$UPPERLIMS[1],29,1960,0x41ebc403
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$SGTWD.$PHASE,48,401,0x6
+[    *SYSTEM*]     $SGSCH1  404 updates               $SGSCH1[98].$THICKNESS,51,3595,0x40a66a5c
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$SGTWD.$RETRY_FLG,48,419,0x0
+              $SGGUN1.$SETUP.$WRDWN_TIP,48,69,0x3f3ca0d3
+              $SGGUN1.$SETUP.$WRDWN_RBT,48,70,0xbe548500
+              $SGGUN1.$SGTWD.$OPN_WDN,48,413,0xc22f639f
+              $SGGUN1.$SGTWD.$DIF_MOV,48,414,0x3dffd198
+              $SGGUN1.$SGTWD.$DIF_FIX,48,415,0x3e50ca00
+              $SGGUN1.$SGTWD.$QSKPWDN,48,426,0xffbfd340
+              $SGGUN1.$SGTWD.$BASE_WD_TIP,48,436,0x3f3ca0d3
+              $SGGUN1.$SGTWD.$BASE_WD_RBT,48,437,0xbe548500
+[    *SYSTEM*] $SPOTCONFIG  1589 updates               $SPOTCONFIG.$CYCLECOUNT,69,16,0x179237
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$SGTWD.$GNWR_AT_CHG,48,431,0x3f1ca6a0
+              $SGGUN1.$SGTWD.$RBWR_AT_CHG,48,432,0xbed2a780
+[    *SYSTEM*]    $SCR_GRP  59079 updates               $SCR_GRP[1].$MCH_ANG[1],34,152,0x421fffad
+              $SCR_GRP[1].$MCH_ANG[2],34,153,0xc20bffce
+              $SCR_GRP[1].$MCH_ANG[3],34,154,0x409fff86
+              $SCR_GRP[1].$MCH_ANG[4],34,155,0x42a80000
+              $SCR_GRP[1].$MCH_ANG[5],34,156,0xc21ffffe
+              $SCR_GRP[1].$MCH_ANG[6],34,157,0xc32c0001
+              $SCR_GRP[2].$MCH_ANG[1],34,616,0xc03ffac0
+[    *SYSTEM*]    $MCR_GRP  52582 updates               $MCR_GRP[1].$TSMOD_ON,24,57,0x0
+[    *SYSTEM*]    $SCR_GRP  59079 updates               $SCR_GRP[1].$MCH_POS_X,34,145,0x449bf3a7
+              $SCR_GRP[1].$MCH_POS_Y,34,146,0x4480a16c
+              $SCR_GRP[1].$MCH_POS_Z,34,147,0x43e8a37c
+              $SCR_GRP[1].$MCH_POS_W,34,148,0x3c2e7992
+              $SCR_GRP[1].$MCH_POS_P,34,149,0x3e4963cf
+              $SCR_GRP[1].$MCH_POS_R,34,150,0x42b4884d
+              $SCR_GRP[1].$MCH_SPD,34,161,0x0
+              $SCR_GRP[1].$DPOS_DST,34,163,0x3dbba6c5
+              $SCR_GRP[1].$DST_POS_X,34,164,0x449bf4e1
+              $SCR_GRP[1].$DST_POS_Y,34,165,0x44809ed6
+              $SCR_GRP[1].$DST_POS_Z,34,166,0x43e8a608
+              $SCR_GRP[1].$MOVE_DST,34,144,0x4afe09ec
+[    *SYSTEM*]$SPOTEQSETUP  14647 updates               $SPOTEQSETUP[1].$RETRY_WELD[1],71,132,0x1
+[    *SYSTEM*]        $MCR  28442 updates               $MCR.$JOG_FINE,23,39,0x0
+[    *SYSTEM*]    $MCR_GRP  52582 updates               $MCR_GRP[1].$TURN_ON_SRV,24,18,0x0
+              $MCR_GRP[2].$TURN_ON_SRV,24,167,0x0
+[    *SYSTEM*]        $SCR  30 updates               $SCR.$CLDET_PT,33,1553,0x80014
+              $SCR.$CLDET_AXS[14],33,1561,0x10101
+              $SCR.$CLDET_TIME[15],33,1580,0x5c4f2703
+              $SCR.$CLDET_AXS[16],33,1562,0x1010101
+              $SCR.$CLDET_TIME[16],33,1581,0x5c4f2705
+              $SCR.$CLDET_TIME[17],33,1582,0x5c4f2709
+              $SCR.$CLDET_AXS[18],33,1563,0x1010101
+              $SCR.$CLDET_TIME[18],33,1583,0x5c4f270c
+              $SCR.$CLDET_TIME[19],33,1584,0x5c4f2722
+              $SCR.$CLDET_AXS[20],33,1564,0x1010000
+              $SCR.$CLDET_TIME[20],33,1585,0x5c4f2723
+              $SCR.$CLDET_AXS[1],33,1554,0x20101
+              $SCR.$CLDET_TIME[1],33,1566,0x5c77a1ac
+              $SCR.$CLDET_TIME[2],33,1567,0x5c77a1b0
+              $SCR.$CLDET_AXS[2],33,1555,0x1010101
+              $SCR.$CLDET_TIME[3],33,1568,0x5cbd6e37
+              $SCR.$CLDET_AXS[4],33,1556,0x1010101
+              $SCR.$CLDET_TIME[4],33,1569,0x5cbd6e50
+              $SCR.$CLDET_TIME[5],33,1570,0x5cbd6e53
+              $SCR.$CLDET_AXS[6],33,1557,0x1010101
+              $SCR.$CLDET_TIME[6],33,1571,0x5cbd6e56
+              $SCR.$CLDET_TIME[7],33,1572,0x5cbd6e76
+[    *SYSTEM*]        $MCR  28442 updates               $MCR.$JOG_V_FINE,23,40,0x0
+[    *SYSTEM*]        $SCR  30 updates               $SCR.$JOGOVLIM,33,39,0x64
+[    *SYSTEM*]    $SCR_GRP  59079 updates               $SCR_GRP[2].$AXISORDER[1],34,471,0x7000000
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$SGTWD.$PLS0STALE,48,411,0x0
+              $SGGUN1.$SGTWD.$BZAL_RST,48,399,0x0
+              $SGGUN1.$SGTWD.$PLS_ZRO,48,410,0x8145ee
+              $SGGUN1.$SGREG.$REGLONG[1],48,378,0x84
+              $SGGUN1.$SGREG.$REGREAL[5],48,393,0xc28c0000
+              $SGGUN1.$SGREG.$REGREAL[6],48,394,0x41f00000
+[    *SYSTEM*]    $MCR_GRP  52582 updates               $MCR_GRP[2].$MASTER,24,155,0x0
+              $MCR_GRP[2].$MASTER_TYPE,24,170,0x17fff
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$STATE.$MAX_FDB,48,375,0x514
+              $SGGUN1.$SGTWD.$TH_LOAD,48,406,0x75
+              $SGGUN1.$SGTWD.$OPN_STD,48,412,0xc2303824
+              $SGGUN1.$SGTWD.$SETUP_MODE,48,439,0x2
+              $SGGUN1.$SGTWD.$MASTR_TIP,48,420,0x0
+              $SGGUN1.$SGTWD.$QSKPSTD,48,425,0xffbebbcd
+[    *SYSTEM*]  $UI_CONFIG  0 updates               $UI_CONFIG.$MODE[1],76,6,0x10303
+              $UI_CONFIG.$CONFIG_CHAN[1],76,12,0x2
+              $UI_CONFIG.$PANEMAP[2],76,20,0x0
+[    *SYSTEM*]    $MCR_GRP  52582 updates               $MCR_GRP[2].$CALIBRATE,24,150,0x0
+              $MCR_GRP[2].$SRVO_Q_STOP,24,245,0xff7fff
+[    *SYSTEM*]     $SGSCH1  404 updates               $SGSCH1[97].$WELD_PRESS,51,3557,0x42b78c86
+              $SGSCH1[98].$SYNC_TERM,51,3603,0x640064
+[    *SYSTEM*]        $SCR  30 updates               $SCR.$CLDET_AXS[8],33,1558,0x1010001
+              $SCR.$CLDET_TIME[8],33,1573,0x5cbd6ea1
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$CD.$COLL_DETCTD,48,447,0x0
+              $SGGUN1.$CD.$COL_MINDSTB,48,448,0xfb580001
+[    *SYSTEM*]        $SCR  30 updates               $SCR.$CLDET_TIME[9],33,1574,0x5c26bf0c
+              $SCR.$CLDET_AXS[10],33,1559,0x200020
+              $SCR.$CLDET_TIME[10],33,1575,0x5c26bf0e
+              $SCR.$CLDET_TIME[11],33,1576,0x5c26bf10
+              $SCR.$CLDET_AXS[12],33,1560,0x200001
+              $SCR.$CLDET_TIME[12],33,1577,0x5c26bf12
+              $SCR.$CLDET_TIME[13],33,1578,0x5c26bf4c
+              $SCR.$CLDET_TIME[14],33,1579,0x5c26bf55
+[    *SYSTEM*]  $UI_CONFIG  0 updates               $UI_CONFIG.$FOCUS[1],76,9,0x0
+[    *SYSTEM*]     $SGSCH1  404 updates               $SGSCH1[97].$THICKNESS,51,3558,0x41200000
+[    *SYSTEM*]        $SCR  30 updates               $SCR.$CHAIN_STAT,33,970,0x0
+              $SCR.$CHAIN_RSDN,33,971,0x1
+[    *SYSTEM*] $SPOTCONFIG  1589 updates               $SPOTCONFIG.$STROKE_ENBL,69,1,0x1
+[    *SYSTEM*]     $IWCDGS  0 updates               $IWCDGS[5].$PARM[31],19,101,0x50000a
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$SGTWD.$MISDETECT,48,421,0x0
+              $SGGUN1.$SGTWD.$MISFIXCNT,48,424,0x2c3
+[    *SYSTEM*]     $IWCDGS  0 updates               $IWCDGS[1].$PARM[5],19,4,0x60000
+              $IWCDGS[5].$PARM[5],19,88,0x80000
+[    *SYSTEM*] $PRGADJ_SCH  0 updates               $PRGADJ_SCH[4].$PROG_NAME,31,112,0x250c5059
+              $PRGADJ_SCH[4].$PROG_NAME,31,113,0x31424c48
+              $PRGADJ_SCH[4].$PROG_NAME,31,114,0x445f4d45
+              $PRGADJ_SCH[4].$PROG_NAME,31,115,0x58310000
+              $PRGADJ_SCH[4].$LINE_STRT,31,122,0x4f
+              $PRGADJ_SCH[4].$LINE_END,31,123,0x51
+              $PRGADJ_SCH[4].$Z_ADJ,31,132,0xc0400000
+              $PRGADJ_SCH[4].$LAST_LINE,31,125,0x51
+              $PRGADJ_SCH[4].$LAST_POSNUM,31,126,0x13
+              $PRGADJ_SCH[4].$STATUS,31,127,0x2
+              $PRGADJ_SCH[4].$GRP_PARTEN[1],31,141,0x1
+              $PRGADJ_SCH[8].$PROG_NAME,31,260,0x250b5059
+              $PRGADJ_SCH[8].$PROG_NAME,31,261,0x31424c48
+              $PRGADJ_SCH[8].$PROG_NAME,31,262,0x445f4743
+              $PRGADJ_SCH[8].$GROUP_ADJ,31,287,0x1
+              $PRGADJ_SCH[8].$PROG_NAME,31,263,0x43000000
+              $PRGADJ_SCH[8].$LINE_STRT,31,270,0x5a
+              $PRGADJ_SCH[8].$LINE_END,31,271,0x5b
+              $PRGADJ_SCH[8].$X_ADJ,31,278,0x0
+              $PRGADJ_SCH[4].$BEGIN_LINE,31,124,0xffffffff
+              $PRGADJ_SCH[8].$LAST_LINE,31,273,0x5b
+              $PRGADJ_SCH[8].$LAST_POSNUM,31,274,0x1e
+              $PRGADJ_SCH[8].$STATUS,31,275,0x2
+              $PRGADJ_SCH[8].$Z_ADJ,31,280,0xc0a00000
+[    *SYSTEM*]     $SGDST1  0 updates               $SGDST1[1].$DST_GUN,46,5,0x424c0000
+[    *SYSTEM*]        $SBR  0 updates               $SBR[1].$PARAM[25],32,36,0x1c720000
+              $SBR[2].$PARAM[25],32,210,0x1c720000
+              $SBR[3].$PARAM[25],32,384,0x1c720000
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$EXTRA_APDST.$DST_GUN,48,284,0x41200000
+              $SGGUN1.$EXTRA_RTDST.$DST_GUN,48,293,0x424c0000
+[    *SYSTEM*] $PRGADJ_SCH  0 updates               $PRGADJ_SCH[1].$LINE_STRT,31,11,0x40
+              $PRGADJ_SCH[1].$STATUS,31,16,0x2
+              $PRGADJ_SCH[1].$LINE_END,31,12,0x42
+              $PRGADJ_SCH[1].$FRAME_NAME,31,18,0x2
+              $PRGADJ_SCH[1].$X_ADJ,31,19,0x3f333333
+              $PRGADJ_SCH[1].$Y_ADJ,31,20,0x0
+              $PRGADJ_SCH[1].$Z_ADJ,31,21,0x0
+              $PRGADJ_SCH[10].$PROG_NAME,31,334,0x250b5059
+              $PRGADJ_SCH[10].$PROG_NAME,31,335,0x31424c48
+              $PRGADJ_SCH[10].$PROG_NAME,31,336,0x445f4743
+              $PRGADJ_SCH[10].$PROG_NAME,31,337,0x43000000
+              $PRGADJ_SCH[10].$LINE_STRT,31,344,0x5a
+              $PRGADJ_SCH[10].$LINE_END,31,345,0x5a
+              $PRGADJ_SCH[10].$FRAME_NAME,31,351,0x1
+              $PRGADJ_SCH[10].$X_ADJ,31,352,0x0
+              $PRGADJ_SCH[10].$Y_ADJ,31,353,0x3f800000
+              $PRGADJ_SCH[6].$PROG_NAME,31,186,0x250b5059
+              $PRGADJ_SCH[6].$PROG_NAME,31,187,0x31424c48
+              $PRGADJ_SCH[6].$PROG_NAME,31,188,0x445f4743
+              $PRGADJ_SCH[6].$LINE_STRT,31,196,0x4d
+              $PRGADJ_SCH[6].$LINE_END,31,197,0x50
+              $PRGADJ_SCH[6].$LAST_LINE,31,199,0x50
+              $PRGADJ_SCH[6].$LAST_POSNUM,31,200,0x14
+              $PRGADJ_SCH[6].$STATUS,31,201,0x2
+              $PRGADJ_SCH[6].$Y_ADJ,31,205,0x0
+              $PRGADJ_SCH[1].$PROG_NAME,31,1,0x25085242
+              $PRGADJ_SCH[1].$PROG_NAME,31,2,0x435f3333
+              $PRGADJ_SCH[1].$PROG_NAME,31,3,0x55500043
+              $PRGADJ_SCH[1].$LAST_LINE,31,14,0x42
+              $PRGADJ_SCH[1].$LAST_POSNUM,31,15,0xe
+              $PRGADJ_SCH[2].$PROG_NAME,31,38,0x25115059
+              $PRGADJ_SCH[2].$PROG_NAME,31,39,0x3142434f
+              $PRGADJ_SCH[2].$PROG_NAME,31,40,0x4d5f3335
+              $PRGADJ_SCH[2].$LINE_STRT,31,48,0x50
+              $PRGADJ_SCH[2].$LINE_END,31,49,0x50
+              $PRGADJ_SCH[2].$BEGIN_LINE,31,50,0xffffffff
+              $PRGADJ_SCH[2].$LAST_LINE,31,51,0x50
+              $PRGADJ_SCH[2].$LAST_POSNUM,31,52,0x3e
+              $PRGADJ_SCH[2].$STATUS,31,53,0x2
+              $PRGADJ_SCH[2].$Z_ADJ,31,58,0x0
+              $PRGADJ_SCH[3].$PROG_NAME,31,75,0x2507504e
+              $PRGADJ_SCH[3].$PROG_NAME,31,76,0x53303035
+              $PRGADJ_SCH[3].$PROG_NAME,31,77,0x37000045
+              $PRGADJ_SCH[3].$LINE_STRT,31,85,0x1
+              $PRGADJ_SCH[3].$LINE_END,31,86,0x0
+              $PRGADJ_SCH[3].$LAST_LINE,31,88,0xffffffff
+              $PRGADJ_SCH[3].$LAST_POSNUM,31,89,0xffffffff
+              $PRGADJ_SCH[3].$STATUS,31,90,0x1
+              $PRGADJ_SCH[3].$Y_ADJ,31,94,0x0
+              $PRGADJ_SCH[3].$Z_ADJ,31,95,0x0
+              $PRGADJ_SCH[1].$UNITS,31,17,0x2
+              $PRGADJ_SCH[2].$FRAME_NAME,31,55,0x1
+              $PRGADJ_SCH[2].$X_ADJ,31,56,0x0
+              $PRGADJ_SCH[3].$FRAME_NAME,31,92,0x1
+              $PRGADJ_SCH[3].$X_ADJ,31,93,0x0
+              $PRGADJ_SCH[2].$Y_ADJ,31,57,0xc0400000
+              $PRGADJ_SCH[3].$BEGIN_LINE,31,87,0xffffffff
+              $PRGADJ_SCH[4].$FRAME_NAME,31,129,0x1
+              $PRGADJ_SCH[4].$X_ADJ,31,130,0x0
+              $PRGADJ_SCH[4].$Y_ADJ,31,131,0x0
+              $PRGADJ_SCH[5].$PROG_NAME,31,149,0x250f5253
+              $PRGADJ_SCH[5].$PROG_NAME,31,150,0x57313631
+              $PRGADJ_SCH[5].$PROG_NAME,31,151,0x345f4842
+              $PRGADJ_SCH[5].$LINE_STRT,31,159,0x48
+              $PRGADJ_SCH[5].$LINE_END,31,160,0x48
+              $PRGADJ_SCH[5].$FRAME_NAME,31,166,0x2
+              $PRGADJ_SCH[5].$X_ADJ,31,167,0x0
+              $PRGADJ_SCH[5].$Y_ADJ,31,168,0x0
+              $PRGADJ_SCH[5].$Z_ADJ,31,169,0x3f800000
+              $PRGADJ_SCH[5].$LAST_LINE,31,162,0x48
+              $PRGADJ_SCH[5].$LAST_POSNUM,31,163,0x15
+              $PRGADJ_SCH[5].$STATUS,31,164,0x2
+              $PRGADJ_SCH[6].$FRAME_NAME,31,203,0x1
+              $PRGADJ_SCH[6].$X_ADJ,31,204,0x0
+              $PRGADJ_SCH[6].$Z_ADJ,31,206,0xc0a00000
+              $PRGADJ_SCH[7].$PROG_NAME,31,223,0x250b5059
+              $PRGADJ_SCH[7].$PROG_NAME,31,224,0x31424c48
+              $PRGADJ_SCH[7].$PROG_NAME,31,225,0x445f4743
+              $PRGADJ_SCH[7].$LINE_STRT,31,233,0x54
+              $PRGADJ_SCH[7].$LINE_END,31,234,0x57
+              $PRGADJ_SCH[7].$FRAME_NAME,31,240,0x1
+              $PRGADJ_SCH[7].$X_ADJ,31,241,0x0
+              $PRGADJ_SCH[7].$Y_ADJ,31,242,0x0
+              $PRGADJ_SCH[7].$Z_ADJ,31,243,0xc0a00000
+              $PRGADJ_SCH[7].$LAST_LINE,31,236,0x57
+              $PRGADJ_SCH[7].$LAST_POSNUM,31,237,0x1a
+              $PRGADJ_SCH[7].$STATUS,31,238,0x2
+              $PRGADJ_SCH[7].$BEGIN_LINE,31,235,0xffffffff
+[    *SYSTEM*]     $IWCDGS  0 updates               $IWCDGS[4].$PARM[19],19,74,0x27102328
+[    *SYSTEM*]   $IWCDGCON  0 updates               $IWCDGCON[1].$PARM[19],18,11,0xa80004
+              $IWCDGCON[1].$PARM[21],18,12,0x1800ff
+              $IWCDGCON[2].$PARM[17],18,31,0x10001
+              $IWCDGCON[2].$PARM[15],18,30,0x10001
+[    *SYSTEM*]     $IWCDGS  0 updates               $IWCDGS[6].$PARM[5],19,109,0xb0000
+              $IWCDGS[9].$PARM[5],19,172,0xd0000
+              $IWCDGS[10].$PARM[5],19,193,0xf0000
+              $IWCDGS[51].$PARM[5],19,1054,0x100000
+              $IWCDGS[1].$PARM[29],19,16,0x30005
+              $IWCDGS[2].$PARM[29],19,37,0xa0005
+              $IWCDGS[3].$PARM[29],19,58,0xa0005
+              $IWCDGS[4].$PARM[29],19,79,0x30005
+              $IWCDGS[5].$PARM[29],19,100,0x30005
+              $IWCDGS[6].$PARM[29],19,121,0xa0005
+              $IWCDGS[7].$PARM[29],19,142,0x30005
+              $IWCDGS[8].$PARM[29],19,163,0x30005
+              $IWCDGS[9].$PARM[29],19,184,0x30005
+              $IWCDGS[10].$PARM[29],19,205,0xa0005
+              $IWCDGS[11].$PARM[29],19,226,0xa0005
+              $IWCDGS[12].$PARM[29],19,247,0x30005
+              $IWCDGS[13].$PARM[29],19,268,0xa0005
+              $IWCDGS[14].$PARM[29],19,289,0xa0005
+              $IWCDGS[15].$PARM[29],19,310,0xa0005
+              $IWCDGS[16].$PARM[29],19,331,0xa0005
+              $IWCDGS[17].$PARM[29],19,352,0xa0005
+              $IWCDGS[18].$PARM[29],19,373,0xa0005
+              $IWCDGS[19].$PARM[29],19,394,0xa0005
+              $IWCDGS[20].$PARM[29],19,415,0xa0005
+              $IWCDGS[21].$PARM[29],19,436,0xa0005
+              $IWCDGS[22].$PARM[29],19,457,0xa0005
+              $IWCDGS[23].$PARM[29],19,478,0xa0005
+              $IWCDGS[24].$PARM[29],19,499,0xa0005
+              $IWCDGS[25].$PARM[29],19,520,0xa0005
+              $IWCDGS[26].$PARM[29],19,541,0xa0005
+              $IWCDGS[27].$PARM[29],19,562,0xa0005
+              $IWCDGS[28].$PARM[29],19,583,0xa0005
+              $IWCDGS[29].$PARM[29],19,604,0xa0005
+              $IWCDGS[30].$PARM[29],19,625,0xa0005
+              $IWCDGS[31].$PARM[29],19,646,0xa0005
+              $IWCDGS[32].$PARM[29],19,667,0xa0005
+              $IWCDGS[33].$PARM[29],19,688,0xa0005
+              $IWCDGS[34].$PARM[29],19,709,0xa0005
+              $IWCDGS[35].$PARM[29],19,730,0xa0005
+              $IWCDGS[36].$PARM[29],19,751,0xa0005
+              $IWCDGS[37].$PARM[29],19,772,0xa0005
+              $IWCDGS[38].$PARM[29],19,793,0xa0005
+              $IWCDGS[39].$PARM[29],19,814,0xa0005
+              $IWCDGS[40].$PARM[29],19,835,0xa0005
+              $IWCDGS[41].$PARM[29],19,856,0xa0005
+              $IWCDGS[42].$PARM[29],19,877,0xa0005
+              $IWCDGS[43].$PARM[29],19,898,0xa0005
+              $IWCDGS[44].$PARM[29],19,919,0xa0005
+              $IWCDGS[45].$PARM[29],19,940,0xa0005
+              $IWCDGS[46].$PARM[29],19,961,0xa0005
+              $IWCDGS[47].$PARM[29],19,982,0xa0005
+              $IWCDGS[48].$PARM[29],19,1003,0xa0005
+              $IWCDGS[49].$PARM[29],19,1024,0xa0005
+              $IWCDGS[50].$PARM[29],19,1045,0x30005
+              $IWCDGS[51].$PARM[29],19,1066,0x30005
+              $IWCDGS[52].$PARM[29],19,1087,0xa0005
+              $IWCDGS[53].$PARM[29],19,1108,0xa0005
+              $IWCDGS[54].$PARM[29],19,1129,0xa0005
+              $IWCDGS[55].$PARM[29],19,1150,0xa0005
+              $IWCDGS[56].$PARM[29],19,1171,0xa0005
+              $IWCDGS[57].$PARM[29],19,1192,0xa0005
+              $IWCDGS[58].$PARM[29],19,1213,0xa0005
+              $IWCDGS[59].$PARM[29],19,1234,0xa0005
+              $IWCDGS[60].$PARM[29],19,1255,0xa0005
+              $IWCDGS[61].$PARM[29],19,1276,0xa0005
+              $IWCDGS[62].$PARM[29],19,1297,0xa0005
+              $IWCDGS[63].$PARM[29],19,1318,0xa0005
+              $IWCDGS[64].$PARM[29],19,1339,0xa0005
+              $IWCDGS[65].$PARM[29],19,1360,0xa0005
+              $IWCDGS[66].$PARM[29],19,1381,0xa0005
+              $IWCDGS[68].$PARM[29],19,1423,0xa0005
+              $IWCDGS[69].$PARM[29],19,1444,0xa0005
+              $IWCDGS[70].$PARM[29],19,1465,0xa0005
+              $IWCDGS[71].$PARM[29],19,1486,0xa0005
+              $IWCDGS[72].$PARM[29],19,1507,0xa0005
+              $IWCDGS[73].$PARM[29],19,1528,0xa0005
+              $IWCDGS[74].$PARM[29],19,1549,0xa0005
+              $IWCDGS[75].$PARM[29],19,1570,0xa0005
+              $IWCDGS[76].$PARM[29],19,1591,0xa0005
+              $IWCDGS[77].$PARM[29],19,1612,0xa0005
+              $IWCDGS[78].$PARM[29],19,1633,0xa0005
+              $IWCDGS[79].$PARM[29],19,1654,0xa0005
+              $IWCDGS[80].$PARM[29],19,1675,0xa0005
+              $IWCDGS[67].$PARM[29],19,1402,0xa0005
+[    *SYSTEM*] $PRGADJ_SCH  0 updates               $PRGADJ_SCH[9].$PROG_NAME,31,297,0x25082a2a
+              $PRGADJ_SCH[9].$PROG_NAME,31,298,0x2a2a2a2a
+              $PRGADJ_SCH[9].$PROG_NAME,31,299,0x2a2a0042
+              $PRGADJ_SCH[9].$PROG_NAME,31,300,0x43000000
+              $PRGADJ_SCH[9].$LINE_STRT,31,307,0x1
+              $PRGADJ_SCH[9].$LINE_END,31,308,0x0
+              $PRGADJ_SCH[9].$FRAME_NAME,31,314,0x1
+              $PRGADJ_SCH[9].$X_ADJ,31,315,0x0
+              $PRGADJ_SCH[9].$LAST_LINE,31,310,0xffffffff
+              $PRGADJ_SCH[9].$LAST_POSNUM,31,311,0xffffffff
+              $PRGADJ_SCH[9].$STATUS,31,312,0x1
+              $PRGADJ_SCH[8].$FRAME_NAME,31,277,0x1
+[    *SYSTEM*]    $MCR_GRP  52582 updates               $MCR_GRP[1].$MASTER_TYPE,24,21,0x7fff
+              $MCR_GRP[1].$PG_ORG_RSM,24,97,0x1
+              $MCR_GRP[2].$PG_ORG_RSM,24,246,0x1
+[    *SYSTEM*]        $MCR  28442 updates               $MCR.$OTF_OFST,23,28,0x0
+[    *SYSTEM*] $PRGADJ_SCH  0 updates               $PRGADJ_SCH[2].$PROG_NAME,31,41,0x4a50485f
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$SETUP.$MAXWDNTIP,48,106,0x40e00000
+[    *SYSTEM*]     $SGSCH1  404 updates               $SGSCH1[97].$PRS_SPD_RAT,51,3585,0x42200000
+[    *SYSTEM*]     $IWCDGS  0 updates               $IWCDGS[2].$PARM[1],19,23,0x30001
+              $IWCDGS[2].$PARM[19],19,32,0x1b581d4c
+[    *SYSTEM*]        $SBR  0 updates               $SBR[7].$PARAM[119],32,1127,0x442fbbe
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$SETUP.$PRESS_LIM,48,8,0x439e0e57
+              $SGGUN1.$SGTWD.$LD_MARGIN,48,407,0xf
+              $SGGUN1.$CD.$STD_THRSH,48,443,0x4420442
+              $SGGUN1.$CD.$PRS_LIM_FRC,48,444,0x44110f48
+[    *SYSTEM*]     $SGSCH1  404 updates               $SGSCH1[16].$WELD_PRESS,51,560,0x43ad5a0d
+              $SGSCH1[17].$WELD_PRESS,51,597,0x43bca5c2
+              $SGSCH1[16].$THICKNESS,51,561,0x40a00000
+              $SGSCH1[17].$THICKNESS,51,598,0x40a00000
+              $SGSCH1[18].$WELD_PRESS,51,634,0x43c6d83c
+              $SGSCH1[18].$THICKNESS,51,635,0x40a00000
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$EXTRA_SCH.$WELD_PRESS,48,247,0x43378c86
+              $SGGUN1.$EXTRA_SCH.$THICKNESS,48,248,0x40800000
+              $SGGUN1.$EXTRA_SCH.$GUNSAGVAL,48,250,0x3efae148
+              $SGGUN1.$EXTRA_SCH.$WTCMPS_TYPE,48,276,0x1
+              $SGGUN1.$EXTRA_SCH.$CREEP_DST2,48,278,0x40000000
+              $SGGUN1.$EXTRA_SCH.$CREEP_SPD,48,279,0x42480000
+[    *SYSTEM*]     $SGSCH1  404 updates               $SGSCH1[11].$THICKNESS,51,376,0x40800000
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$SETUP.$PRESSURECAL,48,14,0x1
+              $SGGUN1.$SETUP.$CAL_PUSH,48,18,0x41c061d5
+              $SGGUN1.$SETUP.$CAL_THICK,48,17,0x41800000
+              $SGGUN1.$EXTRA_SCH.$PUSH_DEPTH,48,249,0x41200000
+              $SGGUN1.$EXTRA_SCH.$SOFT_TOUCH,48,251,0x1
+              $SGGUN1.$EXTRA_SCH.$SFTCH_TA,48,252,0x41c80000
+              $SGGUN1.$EXTRA_SCH.$SFTCH_TB,48,253,0x41c80000
+              $SGGUN1.$EXTRA_SCH.$SYNC_TA,48,254,0x41c00000
+              $SGGUN1.$EXTRA_SCH.$SYNC_TB,48,255,0x41c00000
+              $SGGUN1.$EXTRA_SCH.$SYNC_TERM,48,256,0x640064
+              $SGGUN1.$EXTRA_SCH.$SFTOPN_TA,48,259,0x41c00000
+              $SGGUN1.$EXTRA_SCH.$SFTOPN_TB,48,260,0x41c00000
+              $SGGUN1.$EXTRA_SCH.$AWAY_TERM,48,263,0x640064
+              $SGGUN1.$EXTRA_SCH.$PRESS_TIME,48,264,0x0
+              $SGGUN1.$EXTRA_SCH.$STROKE_LEN,48,266,0x40400000
+              $SGGUN1.$EXTRA_SCH.$TERM_TYPE,48,269,0x1
+              $SGGUN1.$EXTRA_SCH.$TERM_VAL,48,270,0x640000
+              $SGGUN1.$EXTRA_SCH.$ACC_USE,48,271,0x1
+              $SGGUN1.$EXTRA_SCH.$PRS_SPD_RAT,48,275,0x42c80000
+              $SGGUN1.$EXTRA_APDST.$AP_TERMTYP,48,287,0x640000
+              $SGGUN1.$EXTRA_APDST.$AP_SPEED,48,288,0x640064
+              $SGGUN1.$EXTRA_RTDST.$RT_TERMTYP,48,295,0x320064
+              $SGGUN1.$SETUP.$CAL_SCALE1,48,22,0x3f800000
+              $SGGUN1.$SETUP.$CAL_SCALE2,48,25,0x4019999a
+              $SGGUN1.$SETUP.$CAL_SCALE3,48,28,0x40600000
+              $SGGUN1.$SETUP.$CAL_SCALE4,48,31,0x4089999a
+              $SGGUN1.$SETUP.$PRM_A0,48,52,0x429630c2
+              $SGGUN1.$SETUP.$PRM_A1,48,53,0x4210d814
+              $SGGUN1.$SETUP.$P_C_ANGLE,48,194,0x3e4a586c
+              $SGGUN1.$SETUP.$CAL_SCALE5,48,34,0x40c9999a
+              $SGGUN1.$SETUP.$CAL_SCALE6,48,37,0x41133333
+              $SGGUN1.$SETUP.$CAL_PRESS6,48,39,0x43c6d83c
+              $SGGUN1.$SETUP.$CAL_SPEED,48,15,0x6
+              $SGGUN1.$SGTWD.$MISCLBCNT,48,423,0xb0
+[    *SYSTEM*] $PRGADJ_SCH  0 updates               $PRGADJ_SCH[10].$LAST_LINE,31,347,0xffffffff
+              $PRGADJ_SCH[10].$LAST_POSNUM,31,348,0xffffffff
+              $PRGADJ_SCH[10].$STATUS,31,349,0x1
+              $PRGADJ_SCH[10].$Z_ADJ,31,354,0x0
+[    *SYSTEM*]     $IWCDGS  0 updates               $IWCDGS[7].$PARM[5],19,130,0xc0000
+              $IWCDGS[8].$PARM[5],19,151,0xa0001
+              $IWCDGS[50].$PARM[5],19,1033,0xf0000
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$EXTRA_SCH.$GUN_OPEN,48,262,0x1
+              $SGGUN1.$EXTRA_SCH.$USE_MANUAL,48,274,0x0
+[    *SYSTEM*]     $IWCDGS  0 updates               $IWCDGS[8].$PARM[13],19,155,0x5
+              $IWCDGS[7].$PARM[31],19,143,0x64000a
+              $IWCDGS[8].$PARM[31],19,164,0x64000a
+              $IWCDGS[9].$PARM[31],19,185,0x64000a
+              $IWCDGS[51].$PARM[31],19,1067,0x64000a
+              $IWCDGS[50].$PARM[31],19,1046,0x64000a
+              $IWCDGS[6].$PARM[31],19,122,0x5a000a
+              $IWCDGS[50].$PARM[1],19,1031,0xa0001
+              $IWCDGS[50].$PARM[13],19,1037,0xa
+              $IWCDGS[50].$PARM[33],19,1047,0x780001
+              $IWCDGS[5].$PARM[33],19,102,0x780001
+              $IWCDGS[12].$PARM[33],19,249,0x780001
+              $IWCDGS[7].$PARM[33],19,144,0x780001
+              $IWCDGS[4].$PARM[33],19,81,0x780001
+              $IWCDGS[8].$PARM[33],19,165,0x780001
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$MANUAL.$CURCONDIDX,48,214,0x4
+              $SGGUN1.$MANUAL.$CURSTRKIDX,48,215,0x1
+[    *SYSTEM*]     $IWCDGS  0 updates               $IWCDGS[16].$PARM[31],19,332,0x50000a
+              $IWCDGS[17].$PARM[31],19,353,0x50000a
+              $IWCDGS[18].$PARM[31],19,374,0x50000a
+              $IWCDGS[19].$PARM[31],19,395,0x50000a
+              $IWCDGS[20].$PARM[31],19,416,0x50000a
+              $IWCDGS[21].$PARM[31],19,437,0x50000a
+              $IWCDGS[22].$PARM[31],19,458,0x50000a
+              $IWCDGS[23].$PARM[31],19,479,0x50000a
+              $IWCDGS[24].$PARM[31],19,500,0x50000a
+              $IWCDGS[26].$PARM[31],19,542,0x50000a
+              $IWCDGS[27].$PARM[31],19,563,0x50000a
+              $IWCDGS[29].$PARM[31],19,605,0x50000a
+              $IWCDGS[30].$PARM[31],19,626,0x50000a
+              $IWCDGS[28].$PARM[31],19,584,0x50000a
+              $IWCDGS[25].$PARM[31],19,521,0x50000a
+              $IWCDGS[31].$PARM[31],19,647,0x50000a
+              $IWCDGS[32].$PARM[31],19,668,0x50000a
+              $IWCDGS[33].$PARM[31],19,689,0x50000a
+              $IWCDGS[34].$PARM[31],19,710,0x50000a
+              $IWCDGS[35].$PARM[31],19,731,0x50000a
+              $IWCDGS[36].$PARM[31],19,752,0x50000a
+              $IWCDGS[37].$PARM[31],19,773,0x50000a
+              $IWCDGS[38].$PARM[31],19,794,0x50000a
+              $IWCDGS[39].$PARM[31],19,815,0x50000a
+              $IWCDGS[40].$PARM[31],19,836,0x50000a
+              $IWCDGS[41].$PARM[31],19,857,0x50000a
+              $IWCDGS[42].$PARM[31],19,878,0x50000a
+              $IWCDGS[43].$PARM[31],19,899,0x50000a
+              $IWCDGS[44].$PARM[31],19,920,0x50000a
+              $IWCDGS[45].$PARM[31],19,941,0x50000a
+              $IWCDGS[46].$PARM[31],19,962,0x50000a
+              $IWCDGS[47].$PARM[31],19,983,0x50000a
+              $IWCDGS[48].$PARM[31],19,1004,0x50000a
+              $IWCDGS[49].$PARM[31],19,1025,0x50000a
+              $IWCDGS[10].$PARM[31],19,206,0x3c000a
+[    *SYSTEM*]        $SBR  0 updates               $SBR[1].$PARAM[119],32,83,0x987f679
+              $SBR[1].$PARAM[121],32,84,0x987f679
+              $SBR[1].$PARAM[125],32,86,0x2d80000
+              $SBR[2].$PARAM[119],32,257,0xbcef432
+              $SBR[2].$PARAM[121],32,258,0xbcef432
+              $SBR[2].$PARAM[125],32,260,0x2d80000
+              $SBR[3].$PARAM[119],32,431,0x9f5f60b
+              $SBR[3].$PARAM[121],32,432,0x9c7f639
+              $SBR[3].$PARAM[125],32,434,0x2d80000
+              $SBR[4].$PARAM[119],32,605,0x105defa3
+              $SBR[4].$PARAM[121],32,606,0xcaaf356
+              $SBR[4].$PARAM[125],32,608,0x3c70000
+              $SBR[5].$PARAM[119],32,779,0x124eedb2
+              $SBR[5].$PARAM[121],32,780,0xd50f2b0
+              $SBR[5].$PARAM[125],32,782,0x4390000
+              $SBR[6].$PARAM[119],32,953,0xffef002
+              $SBR[6].$PARAM[121],32,954,0xb3cf4c4
+              $SBR[6].$PARAM[125],32,956,0x3b10000
+[    *SYSTEM*]     $IWCDGS  0 updates               $IWCDGS[12].$PARM[31],19,248,0x64000a
+              $IWCDGS[75].$PARM[1],19,1556,0xa0001
+              $IWCDGS[75].$PARM[3],19,1557,0x30001
+              $IWCDGS[75].$PARM[5],19,1558,0xc0000
+              $IWCDGS[75].$PARM[7],19,1559,0x40000
+              $IWCDGS[75].$PARM[13],19,1562,0x5
+              $IWCDGS[75].$PARM[19],19,1565,0x1f402328
+              $IWCDGS[75].$PARM[21],19,1566,0x138807d0
+              $IWCDGS[75].$PARM[33],19,1572,0x780001
+              $IWCDGS[6].$PARM[1],19,107,0x1e0001
+              $IWCDGS[6].$PARM[33],19,123,0x780001
+[    *SYSTEM*]$PARAM_GROUP  404 updates               $PARAM_GROUP[2].$LOWERLIMS[1],29,1828,0xc28c0000
+[    *SYSTEM*]     $IWCDGS  0 updates               $IWCDGS[4].$PARM[1],19,65,0xa0001
+              $IWCDGS[7].$PARM[1],19,128,0x1e0003
+[    *SYSTEM*]  $UI_CONFIG  0 updates               $UI_CONFIG.$HMI_MASK,76,545,0x3
+[    *SYSTEM*]     $IWCDGS  0 updates               $IWCDGS[11].$PARM[5],19,214,0x70000
+              $IWCDGS[4].$PARM[5],19,67,0x70000
+[    *SYSTEM*] $PRGADJ_SCH  0 updates               $PRGADJ_SCH[1].$PROG_NAME,31,4,0x4300002a
+              $PRGADJ_SCH[3].$PROG_NAME,31,78,0x58310000
+              $PRGADJ_SCH[6].$BEGIN_LINE,31,198,0xffffffff
+[    *SYSTEM*]     $IWCDGS  0 updates               $IWCDGS[8].$PARM[3],19,150,0x30001
+              $IWCDGS[250].$PARM[1],19,5231,0x230001
+              $IWCDGS[250].$PARM[3],19,5232,0x20000
+              $IWCDGS[250].$PARM[5],19,5233,0x50000
+              $IWCDGS[250].$PARM[13],19,5237,0xa
+              $IWCDGS[250].$PARM[19],19,5240,0xfa01b58
+              $IWCDGS[250].$PARM[33],19,5247,0x780001
+              $IWCDGS[51].$PARM[13],19,1058,0xa
+              $IWCDGS[4].$PARM[13],19,71,0x5
+              $IWCDGS[8].$PARM[1],19,149,0x1e0002
+[    *SYSTEM*] $PRGADJ_SCH  0 updates               $PRGADJ_SCH[5].$PROG_NAME,31,152,0x435f3132
+              $PRGADJ_SCH[5].$PROG_NAME,31,153,0x33000000
+[    *SYSTEM*]$SPOTEQSETUP  14647 updates               $SPOTEQSETUP[1].$TD_LIMIT[1],71,150,0x40
+[    *SYSTEM*]    $MCR_GRP  52582 updates               $MCR_GRP[1].$PRGOVERRIDE,24,7,0x42be0000
+              $MCR_GRP[2].$PRGOVERRIDE,24,156,0x42be0000
+[    *SYSTEM*] $FILE_DGBCK  0 updates               $FILE_DGBCK[7].$FUNC_PTR,10,231,0x1076d8ac
+              $FILE_DGBCK[8].$FUNC_PTR,10,264,0x1076d8ac
+              $FILE_DGBCK[9].$FUNC_PTR,10,297,0x1076abec
+              $FILE_DGBCK[10].$FUNC_PTR,10,330,0x1076abec
+              $FILE_DGBCK[11].$FUNC_PTR,10,363,0x1076abec
+              $FILE_DGBCK[12].$FUNC_PTR,10,396,0x1076abec
+              $FILE_DGBCK[13].$FUNC_PTR,10,429,0x1076abec
+              $FILE_DGBCK[14].$FUNC_PTR,10,462,0x1076abec
+              $FILE_DGBCK[16].$FUNC_PTR,10,528,0x106e1f98
+              $FILE_DGBCK[18].$FUNC_PTR,10,594,0x10916a40
+[    *SYSTEM*]     $SGGUN1  79979 updates               $SGGUN1.$CD.$CD_ENB_STAT,48,446,0x1
+[    *SYSTEM*]  $UI_CONFIG  0 updates               $UI_CONFIG.$PANEMAP[1],76,19,0x20001
+[    *SYSTEM*] $PRGADJ_SCH  0 updates               $PRGADJ_SCH[2].$PROG_NAME,31,42,0x41505200
+[TWKINIT] saved 4 times with 22 entries:
+[     TWKINIT]   DATA_TYPE  860 updates               DATA_TYPE,2,0,0x0
+[     TWKINIT]       ENTRY  1069 updates               ENTRY,5,0,0x350178
+[     TWKINIT]   INT_VALUE  860 updates               INT_VALUE,20,0,0x0
+[     TWKINIT]    SYS_NAME  6477 updates               SYS_NAME,35,0,0x64192473
+              SYS_NAME,35,1,0x6767756e
+              SYS_NAME,35,2,0x312e2473
+              SYS_NAME,35,3,0x67747764
+              SYS_NAME,35,4,0x2e24636f
+              SYS_NAME,35,5,0x6d706174
+              SYS_NAME,35,6,0x69626c00
+              SYS_NAME,35,7,0x6b005d00
+[     TWKINIT]     TMP_STR  616 updates               TMP_STR,38,0,0xa022031
+[     TWKINIT]  GCLS_PLSCT  430 updates               GCLS_PLSCT[1],11,1,0x821b2b
+[     TWKINIT] GCLS_POSDIF  640 updates               GCLS_POSDIF[1],12,1,0xbd06ea67
+[     TWKINIT] LAST_WD_GUN  430 updates               LAST_WD_GUN[1],21,1,0x3f3ca0d3
+[     TWKINIT] LAST_WD_RBT  430 updates               LAST_WD_RBT[1],22,1,0xbe548500
+[     TWKINIT] LST_WDG_MEM  20 updates               LST_WDG_MEM[1],24,1,0x400b9c9c
+[     TWKINIT] LST_WDR_MEM  20 updates               LST_WDR_MEM[1],25,1,0x401acfc0
+[     TWKINIT]      STATUS  616 updates               STATUS,29,0,0x0
+[     TWKINIT]   GCLS_STAT  420 updates               GCLS_STAT[1],13,1,0x3
+[     TWKINIT]  PRESS_MOTN  420 updates               PRESS_MOTN[1],26,1,0x0
+[     TWKINIT]  CALL_FXTCH  0 updates               CALL_FXTCH,0,0,0x0
+[TWKGNSL2] saved 2 times with 9 entries:
+[    TWKGNSL2]       JPOS2  1396 updates               JPOS2,0,1,0x427803e0
+              JPOS2,0,2,0x11942ca0
+              JPOS2,0,4,0x119089dc
+              JPOS2,0,7,0x10d8a8c0
+              JPOS2,0,8,0x11908928
+              JPOS2,0,9,0x11527ea0
+[    TWKGNSL2]       PHASE  696 updates               PHASE,9,0,0x5
+[    TWKGNSL2]       JPOS2  1396 updates               JPOS2,0,3,0x101eddc0
+              JPOS2,0,5,0x2
+[TWKTHSET] saved 2 times with 2 entries:
+[    TWKTHSET]     MAX_FDB  0 updates               MAX_FDB,2,0,0x75
+[    TWKTHSET]   THRESHOLD  0 updates               THRESHOLD,3,0,0x75
+[TWKPCOND] saved 2 times with 7 entries:
+[    TWKPCOND] DIF_GUNZERO  404 updates               DIF_GUNZERO,3,0,0x3e4d4b80
+[    TWKPCOND]  PUSH_DEPTH  404 updates               PUSH_DEPTH,16,0,0x41ea6569
+[    TWKPCOND]   THICKNESS  404 updates               THICKNESS,25,0,0x40a66a5c
+[    TWKPCOND]      STROKE  0 updates               STROKE,19,0,0x427803e0
+[    TWKPCOND]   MAXWDNRBT  0 updates               MAXWDNRBT,10,0,0x40e00000
+[    TWKPCOND]   MAXWDNTIP  0 updates               MAXWDNTIP,11,0,0x40e00000
+[    TWKPCOND]   MISDETECT  0 updates               MISDETECT,12,0,0x0
+[TWKPULSE] saved 2 times with 6 entries:
+[    TWKPULSE]        DIFF  430 updates               DIFF,1,0,0xbf077f93
+[    TWKPULSE]    DIFF_CNT  430 updates               DIFF_CNT,2,0,0xffff3743
+[    TWKPULSE]  MACHIN_PLS  430 updates               MACHIN_PLS,4,0,0x820eab
+[    TWKPULSE]  MASTER_CNT  0 updates               MASTER_CNT,5,0,0x8145ee
+[    TWKPULSE]  MASTER_TIP  0 updates               MASTER_TIP,6,0,0x0
+[    TWKPULSE]   MISDETECT  0 updates               MISDETECT,7,0,0x0
+[TWKSTROK] saved 2 times with 2 entries:
+[    TWKSTROK] CUR_MASTCNT  0 updates               CUR_MASTCNT,1,0,0x8145ee
+[    TWKSTROK]  MASTER_TIP  0 updates               MASTER_TIP,2,0,0x0
+[TWKFXTCH] saved 3 times with 2 entries:
+[    TWKFXTCH]     PRG_IDX  616 updates               PRG_IDX,0,0,0x4403
+[    TWKFXTCH]     TIP_FLG  30 updates               TIP_FLG,1,0,0x0
+[TWKGQSKP] saved 2 times with 5 entries:
+[    TWKGQSKP]     GUN_POS  430 updates               GUN_POS,0,0,0xc22f639f
+[    TWKGQSKP]  MASTER_CNT  430 updates               MASTER_CNT,2,0,0x820eab
+[    TWKGQSKP]  MASTER_TIP  0 updates               MASTER_TIP,3,0,0x0
+[    TWKGQSKP]  QSKPER_CNT  430 updates               QSKPER_CNT,5,0,0x41192e
+[    TWKGQSKP]   MISDETECT  0 updates               MISDETECT,4,0,0x0
+[SGKDFLCL] saved 1 times with 11 entries:
+[    SGKDFLCL]       JPOS2  0 updates               JPOS2,0,0,0x28290800
+              JPOS2,0,1,0xc0a00000
+              JPOS2,0,2,0x10047310
+              JPOS2,0,3,0x1005bc30
+              JPOS2,0,4,0x1189bcd4
+              JPOS2,0,5,0x20000
+              JPOS2,0,6,0x0
+              JPOS2,0,7,0x118928c4
+              JPOS2,0,8,0x0
+              JPOS2,0,9,0x118928b0
+[    SGKDFLCL]    JPOS_ARR  0 updates               JPOS_ARR[1],7,1,0xc0a00000
+[TWKZRCLB] saved 2 times with 1 entries:
+[    TWKZRCLB]     PRG_IDX  480 updates               PRG_IDX,0,0,0x4611
+[TWKCALC] saved 2 times with 18 entries:
+[     TWKCALC] BASE_WD_RBT  430 updates               BASE_WD_RBT,0,0,0xbed2a780
+[     TWKCALC] BASE_WD_TIP  430 updates               BASE_WD_TIP,1,0,0x3f1ca6a0
+[     TWKCALC] BASE_WD_TTL  430 updates               BASE_WD_TTL,2,0,0x3e4d4b80
+[     TWKCALC]  CUR_MASTER  430 updates               CUR_MASTER,4,0,0x820eab
+[     TWKCALC]  CUR_WD_GUN  430 updates               CUR_WD_GUN,5,0,0x3f3ca0d3
+[     TWKCALC]  CUR_WD_RBT  430 updates               CUR_WD_RBT,6,0,0xbe548500
+[     TWKCALC]  DIF_WD_GUN  430 updates               DIF_WD_GUN,7,0,0x3dffd198
+[     TWKCALC]  DIF_WD_RBT  430 updates               DIF_WD_RBT,8,0,0x3e50ca00
+[     TWKCALC]     NEW_TIP  40 updates               NEW_TIP,20,0,0x0
+[     TWKCALC]  STD_MASTER  0 updates               STD_MASTER,23,0,0x8145ee
+[     TWKCALC]  STD_STROKE  0 updates               STD_STROKE,24,0,0xc2303824
+[     TWKCALC]      STROKE  430 updates               STROKE,25,0,0xc22f639f
+[     TWKCALC]    WD_TOTAL  430 updates               WD_TOTAL,32,0,0x3f077f93
+[     TWKCALC]   FOUND_ERR  0 updates               FOUND_ERR,14,0,0x0
+[     TWKCALC] WD_ELIM_GUN  0 updates               WD_ELIM_GUN,30,0,0x40a00000
+[     TWKCALC] WD_ELIM_RBT  0 updates               WD_ELIM_RBT,31,0,0x40a00000
+[     TWKCALC]  MAX_WD_GUN  0 updates               MAX_WD_GUN,18,0,0x40e00000
+[     TWKCALC]  MAX_WD_RBT  0 updates               MAX_WD_RBT,19,0,0x40e00000
+[SWAXTASK] saved 5 times with 1 entries:
+[    SWAXTASK] FLTED_EQUIP  0 updates               FLTED_EQUIP[1],1,1,0x0
+[SWMANWLD] saved 4 times with 9 entries:
+[    SWMANWLD]   LAST_PSCH  0 updates               LAST_PSCH[1],8,1,0x62
+[    SWMANWLD]   LAST_WSCH  0 updates               LAST_WSCH[1],10,1,0x1
+[    SWMANWLD]     WLD_SCH  0 updates               WLD_SCH[1,1],4,2,0x33
+[    SWMANWLD] LAST_BU_SCH  0 updates               LAST_BU_SCH[1],9,1,0x0
+[    SWMANWLD]  LAST_APDST  0 updates               LAST_APDST[1],11,1,0x62
+[    SWMANWLD]  LAST_RTDST  0 updates               LAST_RTDST[1],12,1,0x0
+[    SWMANWLD]   PRESS_SCH  0 updates               PRESS_SCH[1,1],1,2,0xb
+[    SWMANWLD]       APDST  0 updates               APDST[1,1],6,2,0x8
+[    SWMANWLD]       RTDST  0 updates               RTDST[1,1],7,2,0x1
+[TPFDEF] saved 4 times with 1 entries:
+[      TPFDEF]  SETUP_DATA  0 updates               SETUP_DATA[1,1,3].$METHOD,2,29,0x5060007
+[TWKTHINI] saved 2 times with 1 entries:
+[    TWKTHINI]   PRESS_LIM  0 updates               PRESS_LIM,7,0,0x439e0e57
+
+Variables Scan List:
+     Program     Variable   Size   Shadow         VDB Data        Status
+[    *SYSTEM*]       $AAVM   600 0x11dd17d4, 0x11d45264-0x11d454bc  OK     OK
+[    *SYSTEM*]     $ALM_IF   260 0x11dd1984, 0x11e043a0-0x11e044a4  OK     OK
+[    *SYSTEM*]   $AP_CUREQ  2692 0x11dd1b7c, 0x11d447c8-0x11d4524c  OK     OK
+[    *SYSTEM*] $CELL_SETUP   860 0x11dd2794, 0x11e0402c-0x11e04388  OK     OK
+[    *SYSTEM*]     $CLMLIO    68 0x11dd298c, 0x11d48340-0x11d48384  OK     OK
+[    *SYSTEM*]$CRT_KEY_TBL   260 0x11dd2e0c, 0x11d446ac-0x11d447b0  OK     OK
+[    *SYSTEM*] $CUSTOMMENU  1864 0x11dd30dc, 0x11e038cc-0x11e04014  OK     OK
+[    *SYSTEM*]   $DMSW_CFG    16 0x11dd3c64, 0x11d48318-0x11d48328  OK     OK
+[    *SYSTEM*]$FILE_AP2BCK  2644 0x11dd4b04, 0x11d43c40-0x11d44694  OK     OK
+[    *SYSTEM*]$FILE_APPBCK  6604 0x11dd4b4c, 0x11e01ee8-0x11e038b4  OK     OK
+[    *SYSTEM*] $FILE_DGBCK  5284 0x11dd4bdc, 0x11d42784-0x11d43c28  OK     OK
+[    *SYSTEM*]$FILE_MDONLY  1324 0x11dd4cfc, 0x11e019a4-0x11e01ed0  OK     OK
+[    *SYSTEM*]$FILE_VISBCK  1324 0x11dd4d8c, 0x11d47dd4-0x11d48300  OK     OK
+[    *SYSTEM*]  $FSAC_LIST  1284 0x11dd4f84, 0x11d42268-0x11d4276c  OK     OK
+[    *SYSTEM*]   $FSSB_CFG    84 0x11dd4fcc, 0x11e01938-0x11e0198c  OK     OK
+[    *SYSTEM*]  $HOSTC_CFG  3620 0x11dd52e4, 0x11d4142c-0x11d42250  OK     OK
+[    *SYSTEM*]  $HOSTS_CFG  3620 0x11dd53bc, 0x11e00afc-0x11e01920  OK     OK
+[    *SYSTEM*]$HOST_SHARED  1604 0x11dd54dc, 0x11d40dd0-0x11d41414  OK     OK
+[    *SYSTEM*]   $IWCDGCON  1012 0x11dd5d4c, 0x11e006f0-0x11e00ae4  OK     OK
+[    *SYSTEM*]     $IWCDGS 21424 0x11dd5efc, 0x11d3ba08-0x11d40db8  OK     OK
+[    *SYSTEM*]    $IWCDGS2 21424 0x11dd5f44, 0x11dfb328-0x11e006d8  OK     OK
+[    *SYSTEM*]  $IWCDGSNUM     4 0x11dd5f8c, 0x11d47db8-0x11d47dbc  OK     OK
+[    *SYSTEM*] $MACROTABLE 15004 0x11dd69ac, 0x11d37b2c-0x11d3b5c8  OK     OK
+[    *SYSTEM*]        $MCR   164 0x11dd6cc4, 0x11dfb044-0x11dfb0e8  OK     OK
+[    *SYSTEM*]    $MCR_GRP  1196 0x11dd6d0c, 0x11d37668-0x11d37b14  OK     OK
+[    *SYSTEM*]    $MIX_MKR  2116 0x11dd7024, 0x11dfa7e8-0x11dfb02c  OK     OK
+[    *SYSTEM*]  $MODEM_INF  2116 0x11dd745c, 0x11d36e0c-0x11d37650  OK     OK
+[    *SYSTEM*] $OUT_SIM_DO     4 0x11dd7e7c, 0x11eac804-0x11eac808  OK     OK
+[    *SYSTEM*] $PARAM2_GRP  1716 0x11dd802c, 0x11dfa11c-0x11dfa7d0  OK     OK
+[    *SYSTEM*]$PARAM_GROUP 14012 0x11dd8074, 0x11d33738-0x11d36df4  OK     OK
+[    *SYSTEM*] $PGINP_TYPE   724 0x11dd84f4, 0x11df9e30-0x11dfa104  OK     OK
+[    *SYSTEM*] $PRGADJ_SCH  1484 0x11dd9b74, 0x11d33154-0x11d33720  OK     OK
+[    *SYSTEM*]        $SBR 38980 0x11ddaffc, 0x11df05d4-0x11df9e18  OK     OK
+[    *SYSTEM*]        $SCR  6404 0x11ddb08c, 0x11d31838-0x11d3313c  OK     OK
+[    *SYSTEM*]    $SCR_GRP  3716 0x11ddb0d4, 0x11def738-0x11df05bc  OK     OK
+[    *SYSTEM*]    $SERVENT  1524 0x11ddb1f4, 0x11d3122c-0x11d31820  OK     OK
+[    *SYSTEM*] $SERVICE_KL  1204 0x11ddb23c, 0x11def26c-0x11def720  OK     OK
+[    *SYSTEM*]$SERVICE_PRG  1204 0x11ddb284, 0x11d30d60-0x11d31214  OK     OK
+[    *SYSTEM*]    $SGATCS1   320 0x11ddb434, 0x11def114-0x11def254  OK     OK
+[    *SYSTEM*]    $SGATCS2   320 0x11ddb47c, 0x11d30c08-0x11d30d48  OK     OK
+[    *SYSTEM*]    $SGBACK1   724 0x11ddb4c4, 0x11deee28-0x11def0fc  OK     OK
+[    *SYSTEM*]    $SGBACK2   724 0x11ddb50c, 0x11d3091c-0x11d30bf0  OK     OK
+[    *SYSTEM*]  $SGBTCHTCH 38964 0x11ddb554, 0x11de55dc-0x11deee10  OK     OK
+[    *SYSTEM*]    $SGDIAG1   724 0x11ddb62c, 0x11d30630-0x11d30904  OK     OK
+[    *SYSTEM*]    $SGDIAG2   724 0x11ddb674, 0x11de52f0-0x11de55c4  OK     OK
+[    *SYSTEM*]  $SGDIAGCFG    28 0x11ddb6bc, 0x11d47b7c-0x11d47b98  OK     OK
+[    *SYSTEM*]     $SGDST1  3568 0x11ddb704, 0x11d2f828-0x11d30618  OK     OK
+[    *SYSTEM*]     $SGDST2  3568 0x11ddb74c, 0x11de44e8-0x11de52d8  OK     OK
+[    *SYSTEM*]     $SGGUN1  3652 0x11ddb794, 0x11d2e9cc-0x11d2f810  OK     OK
+[    *SYSTEM*]     $SGGUN2  3652 0x11ddb7dc, 0x11de368c-0x11de44d0  OK     OK
+[    *SYSTEM*]   $SGLOGOUT    48 0x11ddb86c, 0x11d47b34-0x11d47b64  OK     OK
+[    *SYSTEM*]     $SGSCH1 14656 0x11ddb8fc, 0x11d2b074-0x11d2e9b4  OK     OK
+[    *SYSTEM*]     $SGSCH2 14656 0x11ddb944, 0x11d2771c-0x11d2b05c  OK     OK
+[    *SYSTEM*]  $SGTHKRPT2    32 0x11ddbd34, 0x11de3654-0x11de3674  OK     OK
+[    *SYSTEM*]  $SGTHKSET2   120 0x11ddbdc4, 0x11d2768c-0x11d27704  OK     OK
+[    *SYSTEM*]   $SGTRYOUT    16 0x11ddbe9c, 0x11de362c-0x11de363c  OK     OK
+[    *SYSTEM*] $SG_MWTGUN1   932 0x11ddc094, 0x11d272d0-0x11d27674  OK     OK
+[    *SYSTEM*] $SG_MWTGUN2   932 0x11ddc0dc, 0x11de3270-0x11de3614  OK     OK
+[    *SYSTEM*]    $SLCLERR  1008 0x11ddc5ec, 0x11d26ec8-0x11d272b8  OK     OK
+[    *SYSTEM*]   $SLSCHED1 12804 0x11ddc79c, 0x11de0054-0x11de3258  OK     OK
+[    *SYSTEM*]   $SLSCHED2   132 0x11ddc7e4, 0x11d26e2c-0x11d26eb0  OK     OK
+[    *SYSTEM*]   $SLSCHED3   132 0x11ddc82c, 0x11ddffb4-0x11de0038  OK     OK
+[    *SYSTEM*]   $SLSCHED4   132 0x11ddc874, 0x11d26d90-0x11d26e14  OK     OK
+[    *SYSTEM*]   $SLSCHED5   132 0x11ddc8bc, 0x11d26cf4-0x11d26d78  OK     OK
+[    *SYSTEM*] $SMON_ALIAS  4164 0x11ddcbd4, 0x11d25c98-0x11d26cdc  OK     OK
+[    *SYSTEM*]$SMON_RECALL  5124 0x11ddcc64, 0x11d2487c-0x11d25c80  OK     OK
+[    *SYSTEM*]$SPOTADVFUNC    20 0x11ddcdcc, 0x11d47b08-0x11d47b1c  OK     OK
+[    *SYSTEM*]   $SPOTCELL    20 0x11ddcea4, 0x11d24850-0x11d24864  OK     OK
+[    *SYSTEM*] $SPOTCELLIO   324 0x11ddceec, 0x11d246f4-0x11d24838  OK     OK
+[    *SYSTEM*] $SPOTCONFIG   144 0x11ddcf34, 0x11d2464c-0x11d246dc  OK     OK
+[    *SYSTEM*]   $SPOTEQIO  4764 0x11ddd00c, 0x11d23398-0x11d24634  OK     OK
+[    *SYSTEM*]$SPOTEQSETUP  3244 0x11ddd054, 0x11d226d4-0x11d23380  OK     OK
+[    *SYSTEM*] $SPOTWELDIO  6644 0x11ddd12c, 0x11d20cc8-0x11d226bc  OK     OK
+[    *SYSTEM*]   $STOP_PTN     4 0x11ddd36c, 0x11d47aec-0x11d47af0  OK     OK
+[    *SYSTEM*]    $TSR_GRP  1460 0x11dde83c, 0x11d206fc-0x11d20cb0  OK     OK
+[    *SYSTEM*]  $TX_SCREEN  1564 0x11dde8cc, 0x11d200c8-0x11d206e4  OK     OK
+[    *SYSTEM*]  $UI_CONFIG  2424 0x11ddea34, 0x11d1f738-0x11d200b0  OK     OK
+[    *SYSTEM*]  $UI_CUSTOM  5584 0x11ddeac4, 0x11d1e150-0x11d1f720  OK     OK
+[    *SYSTEM*]$UI_USERVIEW  4084 0x11ddee24, 0x11d1d144-0x11d1e138  OK     OK
+[    *SYSTEM*] $VISION_GRP   324 0x11ddf37c, 0x11d1cfe8-0x11d1d12c  OK     OK
+[    *SYSTEM*] $VSHIFTMENU   604 0x11ddf76c, 0x11d1cd74-0x11d1

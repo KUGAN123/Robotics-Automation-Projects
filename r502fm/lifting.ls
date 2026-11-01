@@ -1,0 +1,36 @@
+/PROG  LIFTING
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "";
+PROG_SIZE	= 505;
+CREATE		= DATE 23-05-07  TIME 11:03:22;
+MODIFIED	= DATE 23-05-07  TIME 11:03:50;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 1;
+MEMORY_SIZE	= 873;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:J P[1] 50% CNT50    ;
+/POS
+P[1]{
+   GP1:
+	UF : 0, UT : 1,	
+	J1=     0.000 deg,	J2=   -53.000 deg,	J3=     0.000 deg,
+	J4=     0.000 deg,	J5=     0.000 deg,	J6=     0.000 deg
+   GP2:
+	UF : 0, UT : 1,	
+	J1=    -2.777  mm
+};
+/END

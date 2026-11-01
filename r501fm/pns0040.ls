@@ -1,0 +1,33 @@
+/PROG  PNS0040
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "L02B_INDIA";
+PROG_SIZE	= 256;
+CREATE		= DATE 14-08-30  TIME 19:39:52;
+MODIFIED	= DATE 14-10-24  TIME 09:03:32;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 7;
+MEMORY_SIZE	= 608;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:   ;
+   2:   ;
+   3:  CALL PNS0032    ;
+   4:   ;
+   5:   ;
+   6:   ;
+   7:   ;
+/POS
+/END

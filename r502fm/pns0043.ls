@@ -1,0 +1,50 @@
+/PROG  PNS0043
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "RBC PH2 ";
+PROG_SIZE	= 572;
+CREATE		= DATE 26-05-21  TIME 14:30:18;
+MODIFIED	= DATE 26-05-25  TIME 09:59:22;
+FILE_NAME	= PNS0045;
+VERSION		= 0;
+LINE_COUNT	= 24;
+MEMORY_SIZE	= 880;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:   ;
+   2:  R[71:RBC CYL TIME]=TIMER[8]    ;
+   3:  TIMER[8]=RESET ;
+   4:  TIMER[8]=START ;
+   5:  R[80]=R[50:SPOT COUNT ]    ;
+   6:  CALL IO_RST    ;
+   7:  DO[15]=ON ;
+   8:  R[71:RBC CYL TIME]=0    ;
+   9:  R[54:RBC]=0    ;
+  10:  //CALL RBC_30JPH_DEC    ;
+  11:   ;
+  12:   ;
+  13:  CALL RBC_35JPH_APR    ;
+  14:  //CALL RBC_HR10    ;
+  15:   ;
+  16:   ;
+  17:   ;
+  18:  R[81]=R[50:SPOT COUNT ]    ;
+  19:  DO[15]=OFF ;
+  20:  CALL IO_RST    ;
+  21:   ;
+  22:  TIMER[8]=STOP ;
+  23:  R[54:RBC]=R[81]-R[80]    ;
+  24:  R[71:RBC CYL TIME]=TIMER[8]    ;
+/POS
+/END

@@ -1,0 +1,40 @@
+/PROG  TIP_CHECK
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "";
+PROG_SIZE	= 412;
+CREATE		= DATE 18-10-22  TIME 22:16:22;
+MODIFIED	= DATE 20-08-12  TIME 02:26:48;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 14;
+MEMORY_SIZE	= 860;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:  IF R[80]=0 AND DI[153]=OFF,JMP LBL[1] ;
+   2:   ;
+   3:L PR[1:HOME POSITION] 2000mm/sec FINE    ;
+   4:  DO[101]=OFF ;
+   5:  DO[102]=ON ;
+   6:  WAIT DI[102]=ON    ;
+   7:  DO[102]=OFF ;
+   8:  WAIT R[81]=1 OR DI[154]=ON    ;
+   9:  DO[101]=ON ;
+  10:  WAIT DI[101]=ON    ;
+  11:  DO[101]=OFF ;
+  12:  LBL[1] ;
+  13:  R[80]=0    ;
+  14:  R[81]=0    ;
+/POS
+/END

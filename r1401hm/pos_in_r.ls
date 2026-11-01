@@ -1,0 +1,46 @@
+/PROG  POS_IN_R
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "RH R1301 R1401";
+PROG_SIZE	= 642;
+CREATE		= DATE 12-03-26  TIME 11:40:46;
+MODIFIED	= DATE 12-03-26  TIME 14:58:52;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 21;
+MEMORY_SIZE	= 930;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+/MN
+   1:  PR[GP1:90]=LPOS    ;
+   2:  PR[GP1:90,1]=(-108.082)    ;
+   3:  PR[GP1:90,2]=2426.44    ;
+   4:  PR[GP1:90,3]=805.255    ;
+   5:  PR[GP1:90,4]=0    ;
+   6:  PR[GP1:90,5]=0    ;
+   7:  PR[GP1:90,6]=0    ;
+   8:  PR[GP1:91]=LPOS    ;
+   9:  PR[GP1:91,1]=(-1475.82)    ;
+  10:  PR[GP1:91,2]=1669.61    ;
+  11:  PR[GP1:91,3]=(-104.467)    ;
+  12:  PR[GP1:91,4]=0    ;
+  13:  PR[GP1:91,5]=0    ;
+  14:  PR[GP1:91,6]=0    ;
+  15:  PR[GP1:92]=LPOS    ;
+  16:  PR[GP1:92,1]=(-109.445)    ;
+  17:  PR[GP1:92,2]=1671.03    ;
+  18:  PR[GP1:92,3]=(-108.261)    ;
+  19:  PR[GP1:92,4]=0    ;
+  20:  PR[GP1:92,5]=0    ;
+  21:  PR[GP1:92,6]=0    ;
+/POS
+/END

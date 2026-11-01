@@ -1,0 +1,60 @@
+/PROG  _TEST_CH
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "TEST CHGT ELECT";
+PROG_SIZE	= 758;
+CREATE		= DATE 18-11-02  TIME 18:40:58;
+MODIFIED	= DATE 18-11-02  TIME 18:40:58;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 34;
+MEMORY_SIZE	= 1294;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= *,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:  R[41]=1    ;
+   2:   ;
+   3:   ;
+   4:   ;
+   5:  R[46]=0    ;
+   6:  R[49]=$MCR.$GENOVERRIDE ;
+   7:   ;
+   8:  IF DO[70]=ON OR DI[65]=ON OR UO[8]=ON,JMP LBL[1] ;
+   9:  CALL _EFF_MES    ;
+  10:  MESSAGE[AUTO TIP CHANGE] ;
+  11:  MESSAGE[PLEASE CONFIRM CHANGE] ;
+  12:  MESSAGE[BY PLC WITH HMI] ;
+  13:  MESSAGE[...] ;
+  14:  JMP LBL[2] ;
+  15:   ;
+  16:  LBL[1] ;
+  17:  CALL _EFF_MES    ;
+  18:  MESSAGE[LOCAL TIP CHANGE] ;
+  19:  MESSAGE[...] ;
+  20:  MESSAGE[PLEASE CONFIRM CHANGE] ;
+  21:  MESSAGE[BY PRESS SHIFT IO] ;
+  22:  MESSAGE[ON TEACH PENDANT] ;
+  23:   ;
+  24:  LBL[2] ;
+  25:   ;
+  26:  DO[30]=ON ;
+  27:   ;
+  28:  WAIT DI[8]=ON OR R[46]=1    ;
+  29:   ;
+  30:   ;
+  31:  R[46]=0    ;
+  32:  OVERRIDE=R[49] ;
+  33:   ;
+  34:  CALL _EFF_MES    ;
+/POS
+/END

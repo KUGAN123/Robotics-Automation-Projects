@@ -1,0 +1,40 @@
+/PROG  TCKR100COLD
+/ATTR
+OWNER		= NMT_RSG;
+COMMENT		= "t_check RSW G1";
+PROG_SIZE	= 438;
+CREATE		= DATE 18-12-28  TIME 13:44:44;
+MODIFIED	= DATE 18-12-28  TIME 13:44:44;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 16;
+MEMORY_SIZE	= 762;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+/MN
+   1:  !t_check RSW G1 ;
+   2:  !R0503 ;
+   3:  UTOOL_NUM=1 ;
+   4:  PAYLOAD[1] ;
+   5:   ;
+   6:L PR[10] 1000mm/sec FINE    ;
+   7:  CALL TWKZRCLB(1,10,20) ;
+   8:L PR[10] 1000mm/sec FINE    ;
+   9:   ;
+  10:L PR[11] 1000mm/sec FINE    ;
+  11:  CALL TWKFXTCH(1,10,20,R[132]) ;
+  12:L PR[11] 1000mm/sec FINE    ;
+  13:   ;
+  14:L PR[10] 1000mm/sec FINE    ;
+  15:  UTOOL_NUM=1 ;
+  16:  PAYLOAD[1] ;
+/POS
+/END

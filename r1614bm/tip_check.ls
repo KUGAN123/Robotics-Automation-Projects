@@ -1,0 +1,51 @@
+/PROG  TIP_CHECK
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "";
+PROG_SIZE	= 729;
+CREATE		= DATE 18-10-15  TIME 14:37:26;
+MODIFIED	= DATE 18-10-17  TIME 16:58:02;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 16;
+MEMORY_SIZE	= 1169;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:  IF R[80]=0 AND DI[153]=OFF,JMP LBL[1] ;
+   2:   ;
+   3:L P[1] 2000mm/sec FINE    ;
+   4:  DO[102:GUN ARM SWING RETURN]=ON ;
+   5:  WAIT DI[102:GUN ARM SWING RETURN]=ON    ;
+   6:  DO[102:GUN ARM SWING RETURN]=OFF ;
+   7:   ;
+   8:  WAIT R[81]=1 OR DI[154]=ON    ;
+   9:  DO[101:GUN ARM SWING ADVANCE]=ON ;
+  10:  WAIT DI[101:GUN ARM SWING ADVANCE]=ON    ;
+  11:  DO[101:GUN ARM SWING ADVANCE]=OFF ;
+  12:   ;
+  13:  LBL[1] ;
+  14:   ;
+  15:  R[80]=0    ;
+  16:  R[81]=0    ;
+/POS
+P[1]{
+   GP1:
+	UF : 0, UT : 1,		CONFIG : 'N U T, 0, 0, 0',
+	X =   806.582  mm,	Y =  1384.807  mm,	Z =   559.755  mm,
+	W =      .052 deg,	P =     -.021 deg,	R =    91.140 deg
+   GP2:
+	UF : 0, UT : 1,	
+	J1=   -70.000  mm
+};
+/END

@@ -1,0 +1,42 @@
+/PROG  PNS0054
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "RHD_MC_11.06.23";
+PROG_SIZE	= 422;
+CREATE		= DATE 26-04-06  TIME 19:25:22;
+MODIFIED	= DATE 26-04-06  TIME 19:25:22;
+FILE_NAME	= PNS0050;
+VERSION		= 0;
+LINE_COUNT	= 16;
+MEMORY_SIZE	= 746;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:  !BMA R1614 ;
+   2:  TIMER[8]=RESET ;
+   3:   ;
+   4:  TIMER[8]=START ;
+   5:   ;
+   6:   ;
+   7:  CALL IO_RESET    ;
+   8:  DO[15:IWS START]=ON ;
+   9:   ;
+  10:  CALL PNS0057    ;
+  11:   ;
+  12:  DO[15:IWS START]=OFF ;
+  13:  CALL IO_RESET    ;
+  14:   ;
+  15:  TIMER[8]=STOP ;
+  16:   ;
+/POS
+/END

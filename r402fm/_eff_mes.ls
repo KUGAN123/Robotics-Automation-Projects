@@ -1,0 +1,31 @@
+/PROG  _EFF_MES
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "Efface Message";
+PROG_SIZE	= 266;
+CREATE		= DATE 07-02-13  TIME 09:21:56;
+MODIFIED	= DATE 07-02-13  TIME 09:21:56;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 5;
+MEMORY_SIZE	= 750;
+PROTECT		= READ;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= *,*,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:  R[134:Occupied]=0    ;
+   2:  LBL[10] ;
+   3:  MESSAGE[...] ;
+   4:  R[134:Occupied]=R[134:Occupied]+1    ;
+   5:  IF R[134:Occupied]<=10,JMP LBL[10] ;
+/POS
+/END

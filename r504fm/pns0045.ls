@@ -1,0 +1,41 @@
+/PROG  PNS0045
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "RBC";
+PROG_SIZE	= 370;
+CREATE		= DATE 26-02-21  TIME 15:13:26;
+MODIFIED	= DATE 26-02-21  TIME 15:13:26;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 15;
+MEMORY_SIZE	= 698;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:   ;
+   2:  TIMER[8]=RESET ;
+   3:  TIMER[8]=START ;
+   4:   ;
+   5:  CALL IO_RST    ;
+   6:  DO[15]=ON ;
+   7:   ;
+   8:  CALL PNS0043    ;
+   9:   ;
+  10:  DO[15]=OFF ;
+  11:  CALL IO_RST    ;
+  12:   ;
+  13:  TIMER[8]=STOP ;
+  14:   ;
+  15:   ;
+/POS
+/END

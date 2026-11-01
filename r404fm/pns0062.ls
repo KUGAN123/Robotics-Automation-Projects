@@ -1,0 +1,100 @@
+/PROG  PNS0062
+/ATTR
+OWNER		= NMT_RSG;
+COMMENT		= "MAIN T_CHANG RSW";
+PROG_SIZE	= 1392;
+CREATE		= DATE 24-03-15  TIME 14:59:28;
+MODIFIED	= DATE 24-03-15  TIME 14:59:28;
+FILE_NAME	= ;
+VERSION		= 0;
+LINE_COUNT	= 57;
+MEMORY_SIZE	= 1828;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+/MN
+   1:  !FMA R404 ;
+   2:   ;
+   3:  UFRAME_NUM=0 ;
+   4:  UTOOL_NUM=1 ;
+   5:  PAYLOAD[1] ;
+   6:   ;
+   7:  TIMER[10]=RESET ;
+   8:  TIMER[10]=START ;
+   9:  //DO[15]=ON ;
+  10:  //DO[17]=ON ;
+  11:J PR[2:HOME POS NEW] 50% FINE    ;
+  12:   ;
+  13:  DO[8:TIP CHANGE POS]=OFF ;
+  14:   ;
+  15:  IF DI[7:PARTS BYPASS]=ON,JMP LBL[900] ;
+  16:  DO[98:ISO CONTACTOR]=ON ;
+  17:  WAIT DI[97:ISO CONTACTOR]=ON    ;
+  18:  LBL[900] ;
+  19:   ;
+  20:J P[1:APPROACH BLOCK] 50% FINE    ;
+  21:L P[2:APPROACHTIPBLOCK] 1000mm/sec FINE    ;
+  22:   ;
+  23:  CALL TDRESR1C    ;
+  24:   ;
+  25:L P[2:APPROACHTIPBLOCK] 1000mm/sec FINE    ;
+  26:   ;
+  27:  CALL T_CHG1    ;
+  28:   ;
+  29:J P[2:APPROACHTIPBLOCK] 50% FINE    ;
+  30:   ;
+  31:  CALL TCKR100C    ;
+  32:  R[332]=0    ;
+  33:   ;
+  34:L P[2:APPROACHTIPBLOCK] 1000mm/sec FINE    ;
+  35:  DO[17]=ON ;
+  36:  CALL TDRESR1C    ;
+  37:   ;
+  38:L P[2:APPROACHTIPBLOCK] 1000mm/sec FINE
+    :  SPOT[SD=3,P=95,S=2,ED=6]    ;
+  39:  DO[17]=OFF ;
+  40:  CALL TCKR100C    ;
+  41:   ;
+  42:  DO[26:TIP DRESS CYCLE COMP]=PULSE,1.0sec ;
+  43:   ;
+  44:J P[1:APPROACH BLOCK] 50% CNT50    ;
+  45:  CALL _RZ_ROD1    ;
+  46:  DO[8:TIP CHANGE POS]=OFF ;
+  47:  DO[98:ISO CONTACTOR]=OFF ;
+  48:  WAIT DI[97:ISO CONTACTOR]=OFF    ;
+  49:   ;
+  50:J PR[2:HOME POS NEW] 50% FINE    ;
+  51:  //DO[15]=OFF ;
+  52:  //DO[17]=OFF ;
+  53:  TIMER[10]=STOP ;
+  54:   ;
+  55:  UFRAME_NUM=0 ;
+  56:  UTOOL_NUM=1 ;
+  57:  PAYLOAD[1] ;
+/POS
+P[1:"APPROACH BLOCK"]{
+   GP1:
+	UF : 0, UT : 1,	
+	J1=    44.483 deg,	J2=   -16.092 deg,	J3=    27.849 deg,
+	J4=   -15.202 deg,	J5=  -101.961 deg,	J6=   130.028 deg
+   GP2:
+	UF : 0, UT : 1,	
+	J1=   -60.000  mm
+};
+P[2:"APPROACHTIPBLOCK"]{
+   GP1:
+	UF : 0, UT : 1,		CONFIG : 'N U T, 0, 0, 0',
+	X =   773.713  mm,	Y =  1584.875  mm,	Z =     7.136  mm,
+	W =   -97.590 deg,	P =    76.864 deg,	R =    81.822 deg
+   GP2:
+	UF : 0, UT : 1,	
+	J1=   -60.000  mm
+};
+/END

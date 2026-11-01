@@ -1,0 +1,39 @@
+/PROG  PNS0051
+/ATTR
+OWNER		= MNEDITOR;
+COMMENT		= "PY1B MC INN";
+PROG_SIZE	= 384;
+CREATE		= DATE 25-03-31  TIME 05:19:34;
+MODIFIED	= DATE 25-03-31  TIME 05:19:34;
+FILE_NAME	= PNS0054;
+VERSION		= 0;
+LINE_COUNT	= 13;
+MEMORY_SIZE	= 720;
+PROTECT		= READ_WRITE;
+TCD:  STACK_SIZE	= 0,
+      TASK_PRIORITY	= 50,
+      TIME_SLICE	= 0,
+      BUSY_LAMP_OFF	= 0,
+      ABORT_REQUEST	= 0,
+      PAUSE_REQUEST	= 0;
+DEFAULT_GROUP	= 1,1,*,*,*;
+CONTROL_CODE	= 00000000 00000000;
+/APPL
+  SPOT : TRUE ; 
+  SPOT Welding Equipment Number : 1 ;
+/MN
+   1:   ;
+   2:  TIMER[8]=RESET ;
+   3:  TIMER[8]=START ;
+   4:  CALL IO_RST    ;
+   5:  DO[15]=ON ;
+   6:  CALL PNS0054    ;
+   7:   ;
+   8:  DO[15]=OFF ;
+   9:  CALL IO_RST    ;
+  10:   ;
+  11:  TIMER[8]=STOP ;
+  12:   ;
+  13:   ;
+/POS
+/END
